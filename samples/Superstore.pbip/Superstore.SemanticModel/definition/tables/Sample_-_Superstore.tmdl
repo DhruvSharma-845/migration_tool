@@ -1,9 +1,9 @@
 table 'Sample - Superstore'
-	lineageTag: 6e26e207-6d82-499d-84e5-a065c168633b
+	lineageTag: 8456ed92-d581-4b98-b854-4cab27359ccf
 
 	column 'Row ID'
 		dataType: int64
-		lineageTag: a90850f8-62ab-47e2-a770-e46006ed1b34
+		lineageTag: c92cfad1-2d76-43ac-ad2b-3e490c3a7458
 		summarizeBy: sum
 		sourceColumn: Row ID
 
@@ -11,7 +11,7 @@ table 'Sample - Superstore'
 
 	column 'Order ID'
 		dataType: string
-		lineageTag: d644dd3b-74aa-4009-9b39-a81464f33346
+		lineageTag: 5b5e34cf-bea9-40a1-be32-6900adefdde6
 		summarizeBy: none
 		sourceColumn: Order ID
 
@@ -19,7 +19,7 @@ table 'Sample - Superstore'
 
 	column 'Order Date'
 		dataType: dateTime
-		lineageTag: d2bbb580-c882-464d-bcec-8cee6f5b4ddc
+		lineageTag: 498987d7-7305-48e1-8e3e-9d709c643118
 		summarizeBy: none
 		sourceColumn: Order Date
 
@@ -27,7 +27,7 @@ table 'Sample - Superstore'
 
 	column 'Ship Date'
 		dataType: dateTime
-		lineageTag: f6d17d8c-7c33-4d30-b6df-cb9bbdfd6784
+		lineageTag: 53466446-eefe-4a38-8dc2-087fde867afe
 		summarizeBy: none
 		sourceColumn: Ship Date
 
@@ -35,7 +35,7 @@ table 'Sample - Superstore'
 
 	column 'Ship Mode'
 		dataType: string
-		lineageTag: f8f25fb2-0738-4a51-b002-d79f59c9f298
+		lineageTag: c77873c8-c3a4-44ea-96ff-b29e38481eca
 		summarizeBy: none
 		sourceColumn: Ship Mode
 
@@ -43,7 +43,7 @@ table 'Sample - Superstore'
 
 	column 'Customer ID'
 		dataType: string
-		lineageTag: e1fd4589-3e62-4ff8-a6fa-9d93f38f5d4a
+		lineageTag: f2985092-10ef-4868-8daa-75624ddf2556
 		summarizeBy: none
 		sourceColumn: Customer ID
 
@@ -51,7 +51,7 @@ table 'Sample - Superstore'
 
 	column 'Customer Name'
 		dataType: string
-		lineageTag: 205c86a7-4475-4139-af04-c1b7e942821f
+		lineageTag: 51f4f6b6-b8aa-404a-adcc-6eab7788ac17
 		summarizeBy: none
 		sourceColumn: Customer Name
 
@@ -59,7 +59,7 @@ table 'Sample - Superstore'
 
 	column 'Segment'
 		dataType: string
-		lineageTag: 32ad6627-bfe2-4125-aba8-e72cd97dc3f5
+		lineageTag: 60158126-d0b0-46f6-9726-691d8fde9e1b
 		summarizeBy: none
 		sourceColumn: Segment
 
@@ -67,7 +67,7 @@ table 'Sample - Superstore'
 
 	column 'Country/Region'
 		dataType: string
-		lineageTag: 5378f135-078a-40b8-b545-844c4ae42eb0
+		lineageTag: 0ed1984d-fda6-4423-b741-aee38247c2d8
 		summarizeBy: none
 		sourceColumn: Country/Region
 
@@ -75,7 +75,7 @@ table 'Sample - Superstore'
 
 	column 'City'
 		dataType: string
-		lineageTag: 066c4880-e788-4e40-ae4b-e4b1565a32ba
+		lineageTag: 3c8fa0f7-4039-4a1e-88ba-b80b7a164525
 		summarizeBy: none
 		sourceColumn: City
 
@@ -83,7 +83,7 @@ table 'Sample - Superstore'
 
 	column 'State/Province'
 		dataType: string
-		lineageTag: a869ef3b-b1a4-4cf6-b421-45f2b51eabe4
+		lineageTag: 7db2198b-6d70-4dcc-bd1b-4d3f38f292cd
 		summarizeBy: none
 		sourceColumn: State/Province
 
@@ -91,7 +91,7 @@ table 'Sample - Superstore'
 
 	column 'Postal Code'
 		dataType: string
-		lineageTag: fbf22b7e-0685-4e3e-8142-9b29ba378375
+		lineageTag: 32937acb-48ea-4d70-8460-6c9910502329
 		summarizeBy: none
 		sourceColumn: Postal Code
 
@@ -99,7 +99,7 @@ table 'Sample - Superstore'
 
 	column 'Region'
 		dataType: string
-		lineageTag: 83982a99-d356-4b05-962d-05a8c1aad712
+		lineageTag: 84e990b6-b46b-4b70-aee2-9a5092b4d9a4
 		summarizeBy: none
 		sourceColumn: Region
 
@@ -107,7 +107,7 @@ table 'Sample - Superstore'
 
 	column 'Product ID'
 		dataType: string
-		lineageTag: b1e2d226-2e9d-4ca4-bca6-d763d7aefa7a
+		lineageTag: 83c0a499-b3e8-40cd-9d9c-27902a9ac257
 		summarizeBy: none
 		sourceColumn: Product ID
 
@@ -115,7 +115,7 @@ table 'Sample - Superstore'
 
 	column 'Category'
 		dataType: string
-		lineageTag: 14f56c05-33d7-4b74-bb69-6c1f00996da3
+		lineageTag: 0c536c65-c9ae-449e-84ef-4138c813e6fd
 		summarizeBy: none
 		sourceColumn: Category
 
@@ -123,7 +123,7 @@ table 'Sample - Superstore'
 
 	column 'Sub-Category'
 		dataType: string
-		lineageTag: 79960b3a-4afd-43d5-8ad7-aaea53f658fd
+		lineageTag: 5f1b5754-e3ab-4932-9f2e-c70c2f881f85
 		summarizeBy: none
 		sourceColumn: Sub-Category
 
@@ -131,7 +131,7 @@ table 'Sample - Superstore'
 
 	column 'Product Name'
 		dataType: string
-		lineageTag: 89a18645-85ab-4ba8-9c59-0da74aa4e309
+		lineageTag: 9c373341-b63c-4771-b3da-77f80c9e35a3
 		summarizeBy: none
 		sourceColumn: Product Name
 
@@ -139,7 +139,7 @@ table 'Sample - Superstore'
 
 	column 'Sales'
 		dataType: double
-		lineageTag: 2247c679-e35f-4de3-8634-ff27a1a0172d
+		lineageTag: 4104e7d8-350e-4f67-813d-ca2e991a9982
 		summarizeBy: sum
 		sourceColumn: Sales
 
@@ -147,7 +147,7 @@ table 'Sample - Superstore'
 
 	column 'Quantity'
 		dataType: int64
-		lineageTag: 6c5b2057-f165-4426-9236-9ac63a3d9b42
+		lineageTag: 79fc06e5-27e8-4fb8-987e-acde69f54c18
 		summarizeBy: sum
 		sourceColumn: Quantity
 
@@ -155,7 +155,7 @@ table 'Sample - Superstore'
 
 	column 'Discount'
 		dataType: double
-		lineageTag: e61a4ea9-81d0-42ed-935f-350ec6eb9b48
+		lineageTag: a7aaf6c0-ae50-47eb-8756-72a5c0d1865a
 		summarizeBy: sum
 		sourceColumn: Discount
 
@@ -163,7 +163,7 @@ table 'Sample - Superstore'
 
 	column 'Profit'
 		dataType: double
-		lineageTag: 505df881-629c-44c1-83d9-aa587c84d417
+		lineageTag: 6915f249-e3e1-4a9f-b444-ff54551a438a
 		summarizeBy: sum
 		sourceColumn: Profit
 
@@ -171,7 +171,7 @@ table 'Sample - Superstore'
 
 	column 'Regional Manager'
 		dataType: string
-		lineageTag: 5aaee02b-8a98-4274-b13b-6da4073164a9
+		lineageTag: 7592b06c-c5b1-4e42-a842-94cf4317eec2
 		summarizeBy: none
 		sourceColumn: Regional Manager
 
@@ -179,7 +179,7 @@ table 'Sample - Superstore'
 
 	column 'Returned'
 		dataType: string
-		lineageTag: 2f7c181f-006e-45e5-b658-8d009b907360
+		lineageTag: fe84065c-b8cb-4b64-87ce-e6876ee526a4
 		summarizeBy: none
 		sourceColumn: Returned
 
@@ -187,7 +187,7 @@ table 'Sample - Superstore'
 
 	column 'Order ID (Returns)'
 		dataType: string
-		lineageTag: 0d3311f6-0ee5-4df0-b584-6f52cc287228
+		lineageTag: 274f902f-6be2-4c66-a34c-3b437e5440e9
 		summarizeBy: none
 		sourceColumn: Order ID (Returns)
 
@@ -195,7 +195,7 @@ table 'Sample - Superstore'
 
 	column 'Region (People)'
 		dataType: string
-		lineageTag: 66d1d5dc-ec29-4ce4-8600-eafb875de2e6
+		lineageTag: 7d62ae74-7077-46e2-851c-19d50efefe70
 		summarizeBy: none
 		sourceColumn: Region (People)
 
@@ -203,47 +203,47 @@ table 'Sample - Superstore'
 
 	column 'Sales Target'
 		dataType: int64
-		lineageTag: c123e892-3617-4e8e-abb9-580ebd93cc54
+		lineageTag: 85c2c611-6d57-496b-8f47-f89843a59a0a
 		summarizeBy: sum
 		sourceColumn: Sales Target
 
 		annotation SummarizationSetBy = Automatic
 
 	measure 'Days to Ship Actual' = DATEDIFF('Sample - Superstore'[Order Date], 'Sample - Superstore'[Ship Date], DAY)
-		lineageTag: 9be8b271-b3e5-44c7-9141-743ee7c26c3a
+		lineageTag: e4e4b28f-ce73-4f5d-9f38-59e2631f4fd1
 
 	measure 'Sales Forecast' = 'Sample - Superstore'[Sales]*(1-'Parameters'[Parameter 2])*(1+'Parameters'[Parameter 1])
-		lineageTag: 8da9bd49-33a6-48f8-805c-21b04faa4247
+		lineageTag: b9f626a8-0454-4b6b-97b3-bf2cd0f56d8c
 
 	measure 'Ship Status' = IF('Sample - Superstore'[Calculation_0831103151444568]> 'Sample - Superstore'[Calculation_6861103170623145] , "Shipped Late" , IF( 'Sample - Superstore'[Calculation_0831103151444568]= 'Sample - Superstore'[Calculation_6861103170623145] , "Shipped On Time" , "Shipped Early" )
-		lineageTag: 202a0632-922d-404b-bc86-c0e7e281103b
+		lineageTag: bb79f8b2-2722-4f72-bbf2-39ae2a8282be
 
 	measure 'Days to Ship Scheduled' = CASE 'Sample - Superstore'[Ship Mode] WHEN "Same Day" , 0 WHEN "First Class" , 1 WHEN "Second Class" , 3 WHEN "Standard Class" , 6
-		lineageTag: 0869f9a7-49f4-43d8-a606-2db33da26f28
+		lineageTag: c1773a9a-1e49-4497-b011-168391cec3f8
 
 	measure 'Order Profitable?' = CALCULATE(SUM('Sample - Superstore'[Profit]), ALLEXCEPT(Sample - Superstore, 'Sample - Superstore'[Order ID])>0 // calculates the profit at the order level
-		lineageTag: a5fa3952-381b-4483-b159-e211ce0f73b0
+		lineageTag: b4ff9b6f-d6f5-47ef-a07c-01e56af22629
 
 	measure 'Sales per Customer' = SUM('Sample - Superstore'[Sales])/DISTINCTCOUNT('Sample - Superstore'[Customer Name])
-		lineageTag: e03ab163-4a38-4be6-b1d1-6d97cf71b781
+		lineageTag: 6cd624d8-877e-4406-aeec-3d9cc0039096
 
 	measure 'Profit Ratio' = SUM('Sample - Superstore'[Profit])/SUM('Sample - Superstore'[Sales])
-		lineageTag: 3e0238e6-8371-4768-a1e9-a13fb45b2914
+		lineageTag: cd3ba810-7b7a-4ca8-93ad-43d44163e227
 
 	measure 'Sales above Target?' = IF(SUM('Sample - Superstore'[Sales])>SUM('Sample - Superstore'[Sales Target]) , "Above Target" , "Below Target" )
-		lineageTag: 662ddaeb-0023-4d01-b08f-adf9d71ce80e
+		lineageTag: 26073974-d97e-4ba0-846f-e261d3941207
 
 	measure 'Units estimate' = ROUND('Sample - Superstore'[Quantity]*(1-'Parameters'[Parameter 2])*(1+'Parameters'[Parameter 1]),0)
-		lineageTag: 79b43cc3-ca53-4d10-bba4-e5160059ade6
+		lineageTag: 3856de0c-e7bc-441c-a32a-72fb061e77f0
 
 	measure 'Profit per Order' = SUM('Sample - Superstore'[Profit])/DISTINCTCOUNT('Sample - Superstore'[Order ID])
-		lineageTag: e22165c1-a3fd-4c55-bbdf-037a7cddfeec
+		lineageTag: 55a61a7d-5391-4e14-beef-aa489c7a2bca
 
 	measure 'New Business Growth' = 0.59999999999999998
-		lineageTag: bcf8286e-ba28-4d35-a662-71dd7b1b6f0b
+		lineageTag: ff7427da-a059-4c97-8f93-e9c7cf4190c9
 
 	measure 'Churn Rate' = 0.064000000000000001
-		lineageTag: ae6de44f-cc8e-46d5-a426-4195f2d219d1
+		lineageTag: 493eb5be-5ca2-4b26-8192-b0c9eaae5fa2
 
 	partition 'Sample - Superstore' = m
 		mode: import

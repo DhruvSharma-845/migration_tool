@@ -1,8 +1,0 @@
-{
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.0.0/schema.json",
-  "name": "3e1e6ac03c4241868436",
-  "displayName": "What If Forecast",
-  "displayOption": "FitToPage",
-  "height": 720,
-  "width": 1280
-}

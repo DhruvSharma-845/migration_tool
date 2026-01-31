@@ -1,9 +1,9 @@
 table 'Sales Commission'
-	lineageTag: 49dad710-d04d-47af-82c4-5ec573e4c0fc
+	lineageTag: 0c729492-b325-4c0e-8ce6-8c4482b52fe8
 
 	column 'Order Date'
 		dataType: dateTime
-		lineageTag: 6c783a64-4c82-4742-96a0-4c4478991a41
+		lineageTag: 92a45ed7-fd68-4e8f-896b-e34f908e1a82
 		summarizeBy: none
 		sourceColumn: Order Date
 
@@ -11,7 +11,7 @@ table 'Sales Commission'
 
 	column 'Region'
 		dataType: string
-		lineageTag: 3a7728ed-33e3-4525-b41c-c9d547aa19d1
+		lineageTag: 93dcb8e3-ec97-43a5-89b6-4f1c481e57ea
 		summarizeBy: none
 		sourceColumn: Region
 
@@ -19,7 +19,7 @@ table 'Sales Commission'
 
 	column 'Sales Person'
 		dataType: string
-		lineageTag: 52acac05-cff9-4c67-9d5d-b8b149ec2f73
+		lineageTag: 9b9fd1b8-9a02-4b68-86a5-f789fb913e54
 		summarizeBy: none
 		sourceColumn: Sales Person
 
@@ -27,56 +27,56 @@ table 'Sales Commission'
 
 	column 'Sales'
 		dataType: int64
-		lineageTag: 9e5a8fa1-11c7-42b7-8a36-3c95c5c2f616
+		lineageTag: d79b1a93-d92b-4eb5-b730-09cdba282dcb
 		summarizeBy: sum
 		sourceColumn: Sales
 
 		annotation SummarizationSetBy = Automatic
 
 	measure 'Achievement (estimated)' = 'Sales Commission'[Sales]
-		lineageTag: da3775f9-d9d3-47f7-b3ee-87418d9359c8
+		lineageTag: db736ee4-8989-49eb-82a0-fa1097c06f52
 
 	measure 'Achieved Quota' = IF(SUM('Sales Commission'[Achievement (copy)]) >= 'Parameters'[New Quota] , "100% +" , IF( SUM('Sales Commission'[Achievement (copy)]) >= 0.75 * 'Parameters'[New Quota] , "75-100%" , IF( SUM('Sales Commission'[Achievement (copy)]) >= 0.5 * 'Parameters'[New Quota] , "50-75%" , "Below 50%" ))
-		lineageTag: 57963a02-a972-416b-9902-77ac14bf23e8
+		lineageTag: 427090d9-bd87-4e37-9c70-ef01eb641e43
 
 	measure 'Base (Variable)' = 'Parameters'[Base Salary]
-		lineageTag: 46ed4380-9e0b-490b-8c5a-81f73752686d
+		lineageTag: 9bfa3319-dec7-4a2e-a77e-28444bb30497
 
 	measure '% of quota achieved' = AVERAGE('Sales Commission'[Achievement (copy)])/'Parameters'[New Quota]
-		lineageTag: 4a90df5f-d57c-4b05-b364-014e95e6e872
+		lineageTag: 53d858fd-c609-41d0-a1f6-640a4015df0a
 
 	measure 'Rank over 3' = ROUND(RANKX() / 3 - 0.6,0) + 1
-		lineageTag: 1074c68f-ae6e-4553-ad24-84b5ea5b4818
+		lineageTag: 7ba1996b-ea08-4855-9515-20dce9715b87
 
 	measure 'Sort by field' = IF('Parameters'[Parameter 1 1]="Names" , 0 , IF( 'Parameters'[Parameter 1 1]="% quota descending" , -'Sales Commission'[Calculation_0440925131659539] , 'Sales Commission'[Calculation_0440925131659539] )
-		lineageTag: 9b31f5c0-9429-46b5-82bb-1f75f63964a5
+		lineageTag: 10e84f03-56b1-4a95-bcc9-685a1606c7e5
 
 	measure 'Commission (Variable)' = ('Parameters'[Commission Rate]*'Sales Commission'[Sales])/100
-		lineageTag: 3223c027-2fb9-48f6-8a71-8b49ea6b4d78
+		lineageTag: a1f6000e-7976-4512-a577-b41ba8d73f6f
 
 	measure 'Estimate Compensation label' = "Estimated Compensation:"
-		lineageTag: 3849eb80-3432-4612-af3e-6053f0e31ab0
+		lineageTag: 7a97f4c6-c426-42b4-b9f2-f3b64fc33098
 
 	measure 'OTE (Variable)' = 'Parameters'[Base Salary] + ('Parameters'[Commission Rate]*'Parameters'[New Quota])/100
-		lineageTag: 74ba1b7a-6e29-480c-aed3-450c68880499
+		lineageTag: 7784fb9f-b3bf-4238-af7b-5691b417536d
 
 	measure 'Total Compensation' = MIN('Sales Commission'[Base (Variable)]) + SUM('Sales Commission'[Commission (Variable)])
-		lineageTag: 647b8e59-c0d0-405a-a5d6-27aed5709c78
+		lineageTag: c7914a43-9e28-4397-99b7-63d4413f4080
 
 	measure 'Total Sales label' = "Total Sales:"
-		lineageTag: 79e932d6-e92c-44ee-af3b-cab78124eb34
+		lineageTag: 3b28f6e4-26aa-4443-bbd7-9cf518f1e6b2
 
 	measure 'Base Salary' = 50000
-		lineageTag: 432f8617-0a56-4c28-b6ad-b7238e185aea
+		lineageTag: feb9dc8d-880f-4016-9536-a9898dc1116f
 
 	measure 'Commission Rate' = 18.399999999999999
-		lineageTag: 91927867-3ddf-4906-921a-42b914227093
+		lineageTag: 58158dc4-ca40-48d6-b10b-d29dd0f0e582
 
 	measure 'New Quota' = 500000
-		lineageTag: 62c6399f-1c03-4056-828c-864ac2e83456
+		lineageTag: 5b646afd-1160-403b-8307-ced6ed77e8b4
 
 	measure 'Sort by' = "Names"
-		lineageTag: bd8c309d-809c-48f8-b0e5-973f90110901
+		lineageTag: 3bc0778b-5ece-4337-afab-f4e03574ccfc
 
 	partition 'Sales Commission' = m
 		mode: import

@@ -912,7 +912,7 @@ class PBIPGenerator:
         page_folder = pages_folder / page_id
         page_folder.mkdir(exist_ok=True)
         
-        # Generate page.json
+        # Generate page.json - use schema version compatible with older Power BI versions
         page_content = {
             "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.0.0/schema.json",
             "name": page_id,
@@ -925,11 +925,9 @@ class PBIPGenerator:
         with open(page_folder / "page.json", 'w') as f:
             json.dump(page_content, f, indent=2)
         
-        # Generate visuals for zones
-        visuals_folder = page_folder / "visuals"
-        visuals_folder.mkdir(exist_ok=True)
-        
-        self._create_visuals_from_zones(visuals_folder, zones)
+        # Note: We don't create visuals here since they require proper data bindings
+        # and would use schema versions that may not be compatible with older Power BI.
+        # Users can add visuals in Power BI Desktop after loading the semantic model.
     
     def _create_worksheet_page(self, pages_folder: Path, page_id: str, worksheet: Dict):
         """Create a page from a single worksheet."""
@@ -950,20 +948,8 @@ class PBIPGenerator:
         with open(page_folder / "page.json", 'w') as f:
             json.dump(page_content, f, indent=2)
         
-        # Create a single visual for the worksheet
-        visuals_folder = page_folder / "visuals"
-        visuals_folder.mkdir(exist_ok=True)
-        
-        visual_id = uuid.uuid4().hex[:20]
-        visual_folder = visuals_folder / visual_id
-        visual_folder.mkdir(exist_ok=True)
-        
-        visual_type = self._infer_visual_type(worksheet)
-        visual_content = self._create_visual_json(visual_id, ws_name, visual_type,
-                                                  x=40, y=40, width=1200, height=640)
-        
-        with open(visual_folder / "visual.json", 'w') as f:
-            json.dump(visual_content, f, indent=2)
+        # Note: We don't create visuals here since they require proper data bindings
+        # Users can add visuals in Power BI Desktop after loading the semantic model.
     
     def _create_visuals_from_zones(self, visuals_folder: Path, zones: List[Dict]):
         """Create visual folders from dashboard zones."""

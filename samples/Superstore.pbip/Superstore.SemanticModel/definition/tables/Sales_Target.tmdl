@@ -1,9 +1,9 @@
 table 'Sales Target'
-	lineageTag: 767f4f48-6eca-41ee-9451-7b5fccb71227
+	lineageTag: 57e23a7e-7233-4d34-a4b4-cc123b0a1382
 
 	column 'Category'
 		dataType: string
-		lineageTag: 0bbfaa45-9b0f-43d3-9138-aa93a497c899
+		lineageTag: 338a5486-42ec-44a1-bf03-8baa9a4388f3
 		summarizeBy: none
 		sourceColumn: Category
 
@@ -11,7 +11,7 @@ table 'Sales Target'
 
 	column 'Order Date'
 		dataType: dateTime
-		lineageTag: d4fa6215-d9d3-4a8a-92d0-5cda6ae9985a
+		lineageTag: 4f80f7e1-443d-4e6b-a0ac-0d9b2e383be4
 		summarizeBy: none
 		sourceColumn: Order Date
 
@@ -19,7 +19,7 @@ table 'Sales Target'
 
 	column 'Segment'
 		dataType: string
-		lineageTag: d9a20dea-10b9-4f29-b10e-d9bf9976038a
+		lineageTag: e67da5ed-42c2-4630-a13b-fa360478025a
 		summarizeBy: none
 		sourceColumn: Segment
 
@@ -27,7 +27,7 @@ table 'Sales Target'
 
 	column 'Sales Target'
 		dataType: int64
-		lineageTag: f5fce654-23e2-4768-b425-075a63dfc824
+		lineageTag: 7d281042-531f-4dc2-aa9b-2e272ef3ea1b
 		summarizeBy: sum
 		sourceColumn: Sales Target
 

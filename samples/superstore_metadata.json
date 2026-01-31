@@ -1,0 +1,2893 @@
+{
+    "data_sources": [
+        {
+            "name": "Parameters",
+            "caption": null,
+            "columns": []
+        },
+        {
+            "name": "federated.0hgpf0j1fdpvv316shikk0mmdlec",
+            "caption": "Sales Target",
+            "columns": [
+                {
+                    "name": "Category",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "Order Date",
+                    "caption": null,
+                    "datatype": "date",
+                    "role": null
+                },
+                {
+                    "name": "Segment",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "Sales Target",
+                    "caption": null,
+                    "datatype": "integer",
+                    "role": null
+                },
+                {
+                    "name": "[__tableau_internal_object_id__].[Sheet1_66AF038055174B6D8F7445FD0BC80ED3]",
+                    "caption": "Sales Target",
+                    "datatype": "table",
+                    "role": "measure"
+                },
+                {
+                    "name": "Category",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "Order Date",
+                    "caption": null,
+                    "datatype": "date",
+                    "role": null
+                },
+                {
+                    "name": "Segment",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "Sales Target",
+                    "caption": null,
+                    "datatype": "integer",
+                    "role": null
+                }
+            ]
+        },
+        {
+            "name": "federated.0a01cod1oxl83l1f5yves1cfciqo",
+            "caption": "Sales Commission",
+            "columns": [
+                {
+                    "name": "Order Date",
+                    "caption": null,
+                    "datatype": "datetime",
+                    "role": null
+                },
+                {
+                    "name": "Region",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "Sales Person",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "Sales",
+                    "caption": null,
+                    "datatype": "integer",
+                    "role": null
+                },
+                {
+                    "name": "[Sales]",
+                    "caption": null,
+                    "datatype": "integer",
+                    "role": "measure"
+                },
+                {
+                    "name": "[__tableau_internal_object_id__].[Sales Commission.csv_4F66D485F1F148A299B285539B88B015]",
+                    "caption": "Sales Commission",
+                    "datatype": "table",
+                    "role": "measure"
+                },
+                {
+                    "name": "Order Date",
+                    "caption": null,
+                    "datatype": "datetime",
+                    "role": null
+                },
+                {
+                    "name": "Region",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "Sales Person",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "Sales",
+                    "caption": null,
+                    "datatype": "integer",
+                    "role": null
+                }
+            ]
+        },
+        {
+            "name": "federated.10nnk8d1vgmw8q17yu76u06pnbcj",
+            "caption": "Sample - Superstore",
+            "columns": [
+                {
+                    "name": "Row ID",
+                    "caption": null,
+                    "datatype": "integer",
+                    "role": null
+                },
+                {
+                    "name": "Order ID",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "Order Date",
+                    "caption": null,
+                    "datatype": "date",
+                    "role": null
+                },
+                {
+                    "name": "Ship Date",
+                    "caption": null,
+                    "datatype": "date",
+                    "role": null
+                },
+                {
+                    "name": "Ship Mode",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "Customer ID",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "Customer Name",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "Segment",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "Country/Region",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "City",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "State/Province",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "Postal Code",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "Region",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "Product ID",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "Category",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "Sub-Category",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "Product Name",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "Sales",
+                    "caption": null,
+                    "datatype": "real",
+                    "role": null
+                },
+                {
+                    "name": "Quantity",
+                    "caption": null,
+                    "datatype": "integer",
+                    "role": null
+                },
+                {
+                    "name": "Discount",
+                    "caption": null,
+                    "datatype": "real",
+                    "role": null
+                },
+                {
+                    "name": "Profit",
+                    "caption": null,
+                    "datatype": "real",
+                    "role": null
+                },
+                {
+                    "name": "Regional Manager",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "Region",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "Order ID",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "Returned",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "[:Measure Names]",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": "dimension"
+                },
+                {
+                    "name": "[Category]",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": "dimension"
+                },
+                {
+                    "name": "[City]",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": "dimension"
+                },
+                {
+                    "name": "[Country/Region]",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": "dimension"
+                },
+                {
+                    "name": "[Customer Name]",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": "dimension"
+                },
+                {
+                    "name": "[Discount]",
+                    "caption": null,
+                    "datatype": "real",
+                    "role": "measure"
+                },
+                {
+                    "name": "[Order Date]",
+                    "caption": null,
+                    "datatype": "date",
+                    "role": "dimension"
+                },
+                {
+                    "name": "[Order ID (Returns)]",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": "dimension"
+                },
+                {
+                    "name": "[Order ID]",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": "dimension"
+                },
+                {
+                    "name": "[Postal Code]",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": "dimension"
+                },
+                {
+                    "name": "[Product Name]",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": "dimension"
+                },
+                {
+                    "name": "[Profit]",
+                    "caption": null,
+                    "datatype": "real",
+                    "role": "measure"
+                },
+                {
+                    "name": "[Region (People)]",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": "dimension"
+                },
+                {
+                    "name": "[Region]",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": "dimension"
+                },
+                {
+                    "name": "[Row ID]",
+                    "caption": null,
+                    "datatype": "integer",
+                    "role": "dimension"
+                },
+                {
+                    "name": "[Sales]",
+                    "caption": null,
+                    "datatype": "real",
+                    "role": "measure"
+                },
+                {
+                    "name": "[Segment]",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": "dimension"
+                },
+                {
+                    "name": "[Ship Mode]",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": "dimension"
+                },
+                {
+                    "name": "[State/Province]",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": "dimension"
+                },
+                {
+                    "name": "[Sub-Category]",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": "dimension"
+                },
+                {
+                    "name": "[__tableau_internal_object_id__].[Orders_6D2EF74F348B46BDA976A7AEEA6FB5C9]",
+                    "caption": "Orders",
+                    "datatype": "table",
+                    "role": "measure"
+                },
+                {
+                    "name": "[__tableau_internal_object_id__].[People_37AF7429D04E4916914EED91681E5975]",
+                    "caption": "People",
+                    "datatype": "table",
+                    "role": "measure"
+                },
+                {
+                    "name": "[__tableau_internal_object_id__].[Returns_11818460B7524AB795D23E763C65D6BC]",
+                    "caption": "Returns",
+                    "datatype": "table",
+                    "role": "measure"
+                },
+                {
+                    "name": "[Sales Target]",
+                    "caption": null,
+                    "datatype": "integer",
+                    "role": "measure"
+                },
+                {
+                    "name": "Row ID",
+                    "caption": null,
+                    "datatype": "integer",
+                    "role": null
+                },
+                {
+                    "name": "Order ID",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "Order Date",
+                    "caption": null,
+                    "datatype": "date",
+                    "role": null
+                },
+                {
+                    "name": "Ship Date",
+                    "caption": null,
+                    "datatype": "date",
+                    "role": null
+                },
+                {
+                    "name": "Ship Mode",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "Customer ID",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "Customer Name",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "Segment",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "Country/Region",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "City",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "State/Province",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "Postal Code",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "Region",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "Product ID",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "Category",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "Sub-Category",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "Product Name",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "Sales",
+                    "caption": null,
+                    "datatype": "real",
+                    "role": null
+                },
+                {
+                    "name": "Quantity",
+                    "caption": null,
+                    "datatype": "integer",
+                    "role": null
+                },
+                {
+                    "name": "Discount",
+                    "caption": null,
+                    "datatype": "real",
+                    "role": null
+                },
+                {
+                    "name": "Profit",
+                    "caption": null,
+                    "datatype": "real",
+                    "role": null
+                },
+                {
+                    "name": "Regional Manager",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "Region",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "Order ID",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                },
+                {
+                    "name": "Returned",
+                    "caption": null,
+                    "datatype": "string",
+                    "role": null
+                }
+            ]
+        },
+        {
+            "name": "federated.10nnk8d1vgmw8q17yu76u06pnbcj",
+            "caption": "Sample - Superstore",
+            "columns": []
+        },
+        {
+            "name": "federated.0a01cod1oxl83l1f5yves1cfciqo",
+            "caption": "Sales Commission",
+            "columns": []
+        },
+        {
+            "name": "Parameters",
+            "caption": null,
+            "columns": []
+        },
+        {
+            "name": "federated.10nnk8d1vgmw8q17yu76u06pnbcj",
+            "caption": "Sample - Superstore",
+            "columns": []
+        },
+        {
+            "name": "federated.10nnk8d1vgmw8q17yu76u06pnbcj",
+            "caption": "Sample - Superstore",
+            "columns": []
+        },
+        {
+            "name": "federated.10nnk8d1vgmw8q17yu76u06pnbcj",
+            "caption": "Sample - Superstore",
+            "columns": []
+        },
+        {
+            "name": "federated.10nnk8d1vgmw8q17yu76u06pnbcj",
+            "caption": "Sample - Superstore",
+            "columns": []
+        },
+        {
+            "name": "federated.10nnk8d1vgmw8q17yu76u06pnbcj",
+            "caption": "Sample - Superstore",
+            "columns": []
+        },
+        {
+            "name": "federated.0a01cod1oxl83l1f5yves1cfciqo",
+            "caption": "Sales Commission",
+            "columns": []
+        },
+        {
+            "name": "Parameters",
+            "caption": null,
+            "columns": []
+        },
+        {
+            "name": "federated.10nnk8d1vgmw8q17yu76u06pnbcj",
+            "caption": "Sample - Superstore",
+            "columns": []
+        },
+        {
+            "name": "federated.0hgpf0j1fdpvv316shikk0mmdlec",
+            "caption": "Sales Target",
+            "columns": []
+        },
+        {
+            "name": "federated.10nnk8d1vgmw8q17yu76u06pnbcj",
+            "caption": "Sample - Superstore",
+            "columns": []
+        },
+        {
+            "name": "federated.10nnk8d1vgmw8q17yu76u06pnbcj",
+            "caption": "Sample - Superstore",
+            "columns": []
+        },
+        {
+            "name": "federated.10nnk8d1vgmw8q17yu76u06pnbcj",
+            "caption": "Sample - Superstore",
+            "columns": []
+        },
+        {
+            "name": "federated.0a01cod1oxl83l1f5yves1cfciqo",
+            "caption": "Sales Commission",
+            "columns": []
+        },
+        {
+            "name": "Parameters",
+            "caption": null,
+            "columns": []
+        },
+        {
+            "name": "federated.10nnk8d1vgmw8q17yu76u06pnbcj",
+            "caption": "Sample - Superstore",
+            "columns": []
+        },
+        {
+            "name": "federated.0a01cod1oxl83l1f5yves1cfciqo",
+            "caption": "Sales Commission",
+            "columns": []
+        },
+        {
+            "name": "Parameters",
+            "caption": null,
+            "columns": []
+        },
+        {
+            "name": "federated.10nnk8d1vgmw8q17yu76u06pnbcj",
+            "caption": "Sample - Superstore",
+            "columns": []
+        },
+        {
+            "name": "federated.10nnk8d1vgmw8q17yu76u06pnbcj",
+            "caption": "Sample - Superstore",
+            "columns": []
+        },
+        {
+            "name": "federated.10nnk8d1vgmw8q17yu76u06pnbcj",
+            "caption": "Sample - Superstore",
+            "columns": []
+        },
+        {
+            "name": "federated.10nnk8d1vgmw8q17yu76u06pnbcj",
+            "caption": "Sample - Superstore",
+            "columns": []
+        },
+        {
+            "name": "federated.10nnk8d1vgmw8q17yu76u06pnbcj",
+            "caption": "Sample - Superstore",
+            "columns": []
+        },
+        {
+            "name": "federated.10nnk8d1vgmw8q17yu76u06pnbcj",
+            "caption": "Sample - Superstore",
+            "columns": []
+        },
+        {
+            "name": "federated.10nnk8d1vgmw8q17yu76u06pnbcj",
+            "caption": "Sample - Superstore",
+            "columns": []
+        },
+        {
+            "name": "Parameters",
+            "caption": null,
+            "columns": []
+        },
+        {
+            "name": "Parameters",
+            "caption": null,
+            "columns": []
+        },
+        {
+            "name": "federated.10nnk8d1vgmw8q17yu76u06pnbcj",
+            "caption": "Sample - Superstore",
+            "columns": []
+        },
+        {
+            "name": "federated.10nnk8d1vgmw8q17yu76u06pnbcj",
+            "caption": "Sample - Superstore",
+            "columns": []
+        },
+        {
+            "name": "federated.10nnk8d1vgmw8q17yu76u06pnbcj",
+            "caption": "Sample - Superstore",
+            "columns": []
+        },
+        {
+            "name": "federated.10nnk8d1vgmw8q17yu76u06pnbcj",
+            "caption": "Sample - Superstore",
+            "columns": []
+        },
+        {
+            "name": "federated.10nnk8d1vgmw8q17yu76u06pnbcj",
+            "caption": "Sample - Superstore",
+            "columns": []
+        }
+    ],
+    "calculations": [
+        {
+            "datasource": "Parameters",
+            "name": "[Base Salary]",
+            "caption": "Base Salary",
+            "formula": "50000",
+            "datatype": "integer"
+        },
+        {
+            "datasource": "Parameters",
+            "name": "[Commission Rate]",
+            "caption": "Commission Rate",
+            "formula": "18.399999999999999",
+            "datatype": "real"
+        },
+        {
+            "datasource": "Parameters",
+            "name": "[New Quota]",
+            "caption": "New Quota",
+            "formula": "500000",
+            "datatype": "integer"
+        },
+        {
+            "datasource": "Parameters",
+            "name": "[Parameter 1 1]",
+            "caption": "Sort by",
+            "formula": "\"Names\"",
+            "datatype": "string"
+        },
+        {
+            "datasource": "Parameters",
+            "name": "[Parameter 1]",
+            "caption": "New Business Growth",
+            "formula": "0.59999999999999998",
+            "datatype": "real"
+        },
+        {
+            "datasource": "Parameters",
+            "name": "[Parameter 2]",
+            "caption": "Churn Rate",
+            "formula": "0.064000000000000001",
+            "datatype": "real"
+        },
+        {
+            "datasource": "federated.0a01cod1oxl83l1f5yves1cfciqo",
+            "name": "[Achievement (copy)]",
+            "caption": "Achievement (estimated)",
+            "formula": "[Sales]",
+            "datatype": "integer"
+        },
+        {
+            "datasource": "federated.0a01cod1oxl83l1f5yves1cfciqo",
+            "name": "[Achievement (variable) (copy)]",
+            "caption": "Achieved Quota",
+            "formula": "if SUM([Achievement (copy)]) >= [Parameters].[New Quota] then \"100% +\"\r\nelseif SUM([Achievement (copy)]) >= 0.75 * [Parameters].[New Quota] then \"75-100%\"\r\nelseif SUM([Achievement (copy)]) >= 0.5 * [Parameters].[New Quota] then \"50-75%\"\r\nelse \"Below 50%\" end",
+            "datatype": "string"
+        },
+        {
+            "datasource": "federated.0a01cod1oxl83l1f5yves1cfciqo",
+            "name": "[Base (Variable)]",
+            "caption": null,
+            "formula": "[Parameters].[Base Salary]",
+            "datatype": "integer"
+        },
+        {
+            "datasource": "federated.0a01cod1oxl83l1f5yves1cfciqo",
+            "name": "[Calculation_0440925131659539]",
+            "caption": "% of quota achieved",
+            "formula": "AVG([Achievement (copy)])/[Parameters].[New Quota]",
+            "datatype": "real"
+        },
+        {
+            "datasource": "federated.0a01cod1oxl83l1f5yves1cfciqo",
+            "name": "[Calculation_4120925132203686]",
+            "caption": "Rank over 3",
+            "formula": "ROUND(INDEX() / 3 - 0.6,0) + 1",
+            "datatype": "real"
+        },
+        {
+            "datasource": "federated.0a01cod1oxl83l1f5yves1cfciqo",
+            "name": "[Calculation_8140925133029303]",
+            "caption": "Sort by field",
+            "formula": "if [Parameters].[Parameter 1 1]=\"Names\" then 0\r\nelseif [Parameters].[Parameter 1 1]=\"% quota descending\" then -[Calculation_0440925131659539]\r\nelse [Calculation_0440925131659539] end",
+            "datatype": "real"
+        },
+        {
+            "datasource": "federated.0a01cod1oxl83l1f5yves1cfciqo",
+            "name": "[Commission (Variable)]",
+            "caption": null,
+            "formula": "([Parameters].[Commission Rate]*[Sales])/100",
+            "datatype": "real"
+        },
+        {
+            "datasource": "federated.0a01cod1oxl83l1f5yves1cfciqo",
+            "name": "[Estimate Compensation label]",
+            "caption": null,
+            "formula": "\"Estimated Compensation:\"",
+            "datatype": "string"
+        },
+        {
+            "datasource": "federated.0a01cod1oxl83l1f5yves1cfciqo",
+            "name": "[OTE (Variable)]",
+            "caption": null,
+            "formula": "[Parameters].[Base Salary] + ([Parameters].[Commission Rate]*[Parameters].[New Quota])/100",
+            "datatype": "real"
+        },
+        {
+            "datasource": "federated.0a01cod1oxl83l1f5yves1cfciqo",
+            "name": "[Total Compensation]",
+            "caption": null,
+            "formula": "MIN([Base (Variable)]) + SUM([Commission (Variable)])",
+            "datatype": "real"
+        },
+        {
+            "datasource": "federated.0a01cod1oxl83l1f5yves1cfciqo",
+            "name": "[Total Sales label]",
+            "caption": null,
+            "formula": "\"Total Sales:\"",
+            "datatype": "string"
+        },
+        {
+            "datasource": "federated.0a01cod1oxl83l1f5yves1cfciqo",
+            "name": "[Base Salary]",
+            "caption": "Base Salary",
+            "formula": "50000",
+            "datatype": "integer"
+        },
+        {
+            "datasource": "federated.0a01cod1oxl83l1f5yves1cfciqo",
+            "name": "[Commission Rate]",
+            "caption": "Commission Rate",
+            "formula": "18.399999999999999",
+            "datatype": "real"
+        },
+        {
+            "datasource": "federated.0a01cod1oxl83l1f5yves1cfciqo",
+            "name": "[New Quota]",
+            "caption": "New Quota",
+            "formula": "500000",
+            "datatype": "integer"
+        },
+        {
+            "datasource": "federated.0a01cod1oxl83l1f5yves1cfciqo",
+            "name": "[Parameter 1 1]",
+            "caption": "Sort by",
+            "formula": "\"Names\"",
+            "datatype": "string"
+        },
+        {
+            "datasource": "federated.10nnk8d1vgmw8q17yu76u06pnbcj",
+            "name": "[Calculation_0831103151444568]",
+            "caption": "Days to Ship Actual",
+            "formula": "DATEDIFF('day',[Order Date],[Ship Date])",
+            "datatype": "integer"
+        },
+        {
+            "datasource": "federated.10nnk8d1vgmw8q17yu76u06pnbcj",
+            "name": "[Calculation_5421109230915137]",
+            "caption": "Sales Forecast",
+            "formula": "[Sales]*(1-[Parameters].[Parameter 2])*(1+[Parameters].[Parameter 1])",
+            "datatype": "real"
+        },
+        {
+            "datasource": "federated.10nnk8d1vgmw8q17yu76u06pnbcj",
+            "name": "[Calculation_6401103171259723]",
+            "caption": "Ship Status",
+            "formula": "if [Calculation_0831103151444568]> [Calculation_6861103170623145] then \"Shipped Late\" \r\nelseIF [Calculation_0831103151444568]= [Calculation_6861103170623145] then \"Shipped On Time\"\r\nElse \"Shipped Early\" end",
+            "datatype": "string"
+        },
+        {
+            "datasource": "federated.10nnk8d1vgmw8q17yu76u06pnbcj",
+            "name": "[Calculation_6861103170623145]",
+            "caption": "Days to Ship Scheduled",
+            "formula": "CASE  [Ship Mode]\r\nWHEN \"Same Day\" THEN 0\r\nWHEN \"First Class\" THEN 1\r\nWHEN \"Second Class\" THEN 3\r\nWHEN \"Standard Class\" THEN 6\r\nEND",
+            "datatype": "integer"
+        },
+        {
+            "datasource": "federated.10nnk8d1vgmw8q17yu76u06pnbcj",
+            "name": "[Calculation_9060122104947471]",
+            "caption": "Order Profitable?",
+            "formula": "{fixed [Order ID]:sum([Profit])}>0\r\n// calculates the profit at the order level",
+            "datatype": "boolean"
+        },
+        {
+            "datasource": "federated.10nnk8d1vgmw8q17yu76u06pnbcj",
+            "name": "[Calculation_9321103144526191]",
+            "caption": "Sales per Customer",
+            "formula": "Sum([Sales])/countD([Customer Name])",
+            "datatype": "real"
+        },
+        {
+            "datasource": "federated.10nnk8d1vgmw8q17yu76u06pnbcj",
+            "name": "[Calculation_9921103144103743]",
+            "caption": "Profit Ratio",
+            "formula": "sum([Profit])/sum([Sales])",
+            "datatype": "real"
+        },
+        {
+            "datasource": "federated.10nnk8d1vgmw8q17yu76u06pnbcj",
+            "name": "[Calculation_9951107165644870]",
+            "caption": "Sales above Target?",
+            "formula": "If Sum([Sales])>SUM([federated.0hgpf0j1fdpvv316shikk0mmdlec].[Sales Target]) then \"Above Target\" else \"Below Target\" end",
+            "datatype": "string"
+        },
+        {
+            "datasource": "federated.10nnk8d1vgmw8q17yu76u06pnbcj",
+            "name": "[Sales est (copy)]",
+            "caption": "Units estimate",
+            "formula": "ROUND([Quantity]*(1-[Parameters].[Parameter 2])*(1+[Parameters].[Parameter 1]),0)",
+            "datatype": "real"
+        },
+        {
+            "datasource": "federated.10nnk8d1vgmw8q17yu76u06pnbcj",
+            "name": "[Sales per Customer (copy)]",
+            "caption": "Profit per Order",
+            "formula": "Sum([Profit])/countD([Order ID])",
+            "datatype": "real"
+        },
+        {
+            "datasource": "federated.10nnk8d1vgmw8q17yu76u06pnbcj",
+            "name": "[Parameter 1]",
+            "caption": "New Business Growth",
+            "formula": "0.59999999999999998",
+            "datatype": "real"
+        },
+        {
+            "datasource": "federated.10nnk8d1vgmw8q17yu76u06pnbcj",
+            "name": "[Parameter 2]",
+            "caption": "Churn Rate",
+            "formula": "0.064000000000000001",
+            "datatype": "real"
+        }
+    ],
+    "worksheets": [
+        {
+            "name": "CommissionProjection",
+            "visual_type": "unknown",
+            "dimensions": [],
+            "measures": [],
+            "filters": [
+                {
+                    "column": "[federated.0a01cod1oxl83l1f5yves1cfciqo].[:Measure Names]",
+                    "class": "categorical"
+                }
+            ]
+        },
+        {
+            "name": "CustomerOverview",
+            "visual_type": "unknown",
+            "dimensions": [],
+            "measures": [],
+            "filters": [
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[:Measure Names]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Category:nk]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Order Date:qk]",
+                    "class": "quantitative"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Region:nk]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Segment:nk]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[qr:Order Date:ok]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[yr:Order Date:ok]",
+                    "class": "categorical"
+                }
+            ]
+        },
+        {
+            "name": "CustomerRank",
+            "visual_type": "unknown",
+            "dimensions": [],
+            "measures": [],
+            "filters": [
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[Action (Region)]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Category:nk]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Order Date:qk]",
+                    "class": "quantitative"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Region:nk]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Segment:nk]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[yr:Order Date:ok]",
+                    "class": "categorical"
+                }
+            ]
+        },
+        {
+            "name": "CustomerScatter",
+            "visual_type": "unknown",
+            "dimensions": [],
+            "measures": [],
+            "filters": [
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[Action (Region)]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Category:nk]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Order Date:qk]",
+                    "class": "quantitative"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Region:nk]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Segment:nk]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[yr:Order Date:ok]",
+                    "class": "categorical"
+                }
+            ]
+        },
+        {
+            "name": "DaystoShip",
+            "visual_type": "unknown",
+            "dimensions": [],
+            "measures": [],
+            "filters": [
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[Action (Delayed?)]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[Action (Ship Status)]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[Action (Ship Status,YEAR(Order Date),WEEK(Order Date))]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Calculation_6401103171259723:nk]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Region:nk]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Ship Mode:nk]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[qr:Order Date:ok]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[yr:Order Date:ok]",
+                    "class": "categorical"
+                }
+            ]
+        },
+        {
+            "name": "Forecast",
+            "visual_type": "unknown",
+            "dimensions": [],
+            "measures": [],
+            "filters": [
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Order Date:qk]",
+                    "class": "quantitative"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Region:nk]",
+                    "class": "categorical"
+                }
+            ]
+        },
+        {
+            "name": "OTE",
+            "visual_type": "unknown",
+            "dimensions": [],
+            "measures": [],
+            "filters": [
+                {
+                    "column": "[federated.0a01cod1oxl83l1f5yves1cfciqo].[:Measure Names]",
+                    "class": "categorical"
+                }
+            ]
+        },
+        {
+            "name": "Performance",
+            "visual_type": "unknown",
+            "dimensions": [],
+            "measures": [],
+            "filters": [
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Region:nk]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[yr:Order Date:ok]",
+                    "class": "categorical"
+                }
+            ]
+        },
+        {
+            "name": "Product Detail Sheet",
+            "visual_type": "unknown",
+            "dimensions": [],
+            "measures": [],
+            "filters": [
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[:Measure Names]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[Action (Order Profitable?,MONTH(Order Date),Segment)]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[Action (Postal Code,State/Province) 1]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Category:nk]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:City:nk]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Order Date:ok]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Order Date:qk]",
+                    "class": "quantitative"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Region:nk]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Segment:nk]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:State/Province:nk]",
+                    "class": "categorical"
+                }
+            ]
+        },
+        {
+            "name": "ProductDetails",
+            "visual_type": "unknown",
+            "dimensions": [],
+            "measures": [],
+            "filters": [
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[Action (Category,YEAR(Order Date),MONTH(Order Date))]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[Action (YEAR(Order Date),MONTH(Order Date))]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[Action (YEAR(Order Date),MONTH(Order Date),Product Category)]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[mn:Order Date:ok]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Order Date:qk]",
+                    "class": "quantitative"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Region:nk]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[yr:Order Date:ok]",
+                    "class": "categorical"
+                }
+            ]
+        },
+        {
+            "name": "ProductView",
+            "visual_type": "unknown",
+            "dimensions": [],
+            "measures": [],
+            "filters": [
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Category:nk]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Region:nk]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[yr:Order Date:ok]",
+                    "class": "categorical"
+                }
+            ]
+        },
+        {
+            "name": "QuotaAttainment",
+            "visual_type": "unknown",
+            "dimensions": [],
+            "measures": [],
+            "filters": []
+        },
+        {
+            "name": "Sale Map",
+            "visual_type": "unknown",
+            "dimensions": [],
+            "measures": [],
+            "filters": [
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Calculation_9060122104947471:nk]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Order Date:qk]",
+                    "class": "quantitative"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Region:nk]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[usr:Calculation_9921103144103743:qk]",
+                    "class": "quantitative"
+                }
+            ]
+        },
+        {
+            "name": "Sales",
+            "visual_type": "unknown",
+            "dimensions": [],
+            "measures": [],
+            "filters": [
+                {
+                    "column": "[federated.0a01cod1oxl83l1f5yves1cfciqo].[:Measure Names]",
+                    "class": "categorical"
+                }
+            ]
+        },
+        {
+            "name": "Sales by Product",
+            "visual_type": "unknown",
+            "dimensions": [],
+            "measures": [],
+            "filters": [
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[Action (MONTH(Order Date),Segment)]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[Action (Postal Code,State/Province)]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[Action (State/Province)]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Calculation_9060122104947471:nk]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Order Date:qk]",
+                    "class": "quantitative"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Region:nk]",
+                    "class": "categorical"
+                }
+            ]
+        },
+        {
+            "name": "Sales by Segment",
+            "visual_type": "unknown",
+            "dimensions": [],
+            "measures": [],
+            "filters": [
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[Action (MONTH(Order Date),Product Category)]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[Action (Postal Code,State/Province)]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[Action (State/Province)]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Calculation_9060122104947471:nk]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Order Date:qk]",
+                    "class": "quantitative"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Region:nk]",
+                    "class": "categorical"
+                }
+            ]
+        },
+        {
+            "name": "ShipSummary",
+            "visual_type": "unknown",
+            "dimensions": [],
+            "measures": [],
+            "filters": [
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Calculation_6401103171259723:nk]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Region:nk]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Ship Mode:nk]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[qr:Order Date:ok]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[yr:Order Date:ok]",
+                    "class": "categorical"
+                }
+            ]
+        },
+        {
+            "name": "ShippingTrend",
+            "visual_type": "unknown",
+            "dimensions": [],
+            "measures": [],
+            "filters": [
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[Action (Delayed?)]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[Action (Ship Status)]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Region:nk]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Ship Mode:nk]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[qr:Order Date:ok]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[yr:Order Date:ok]",
+                    "class": "categorical"
+                }
+            ]
+        },
+        {
+            "name": "Tooltip: Profit Ratio by City",
+            "visual_type": "unknown",
+            "dimensions": [],
+            "measures": [],
+            "filters": [
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[Tooltip (Country/Region,State/Province)]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[Tooltip (State/Province)]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Order Date:qk]",
+                    "class": "quantitative"
+                }
+            ]
+        },
+        {
+            "name": "Total Sales",
+            "visual_type": "unknown",
+            "dimensions": [],
+            "measures": [],
+            "filters": [
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[:Measure Names]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[Action (Order Profitable?,Category,MONTH(Order Date))]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[Action (Order Profitable?,MONTH(Order Date),Segment)]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[Action (State/Province)]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Order Date:qk]",
+                    "class": "quantitative"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Region:nk]",
+                    "class": "categorical"
+                }
+            ]
+        },
+        {
+            "name": "What If Forecast",
+            "visual_type": "unknown",
+            "dimensions": [],
+            "measures": [],
+            "filters": [
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[:Measure Names]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Order Date:qk]",
+                    "class": "quantitative"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[none:Region:nk]",
+                    "class": "categorical"
+                },
+                {
+                    "column": "[federated.10nnk8d1vgmw8q17yu76u06pnbcj].[yr:Order Date:ok]",
+                    "class": "categorical"
+                }
+            ]
+        }
+    ],
+    "dashboards": [
+        {
+            "name": "Commission Model",
+            "zones": [
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "0",
+                    "y": "0",
+                    "width": "100000",
+                    "height": "100000"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "0",
+                    "y": "0",
+                    "width": "100000",
+                    "height": "100000"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "410",
+                    "y": "774",
+                    "width": "99180",
+                    "height": "3540"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "410",
+                    "y": "4314",
+                    "width": "99180",
+                    "height": "75886"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "410",
+                    "y": "4314",
+                    "width": "99180",
+                    "height": "75886"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "410",
+                    "y": "4314",
+                    "width": "99180",
+                    "height": "2765"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "410",
+                    "y": "7079",
+                    "width": "99180",
+                    "height": "7190"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "410",
+                    "y": "7521",
+                    "width": "40828",
+                    "height": "6306"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "410",
+                    "y": "7521",
+                    "width": "20414",
+                    "height": "6306"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "20824",
+                    "y": "7521",
+                    "width": "20414",
+                    "height": "6306"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "41238",
+                    "y": "7521",
+                    "width": "14581",
+                    "height": "6306"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "70394",
+                    "y": "7521",
+                    "width": "29196",
+                    "height": "6306"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "55819",
+                    "y": "7521",
+                    "width": "14575",
+                    "height": "6306"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "410",
+                    "y": "14269",
+                    "width": "99180",
+                    "height": "65931"
+                },
+                {
+                    "name": "QuotaAttainment",
+                    "type": null,
+                    "x": "410",
+                    "y": "14270",
+                    "width": "49619",
+                    "height": "65929"
+                },
+                {
+                    "name": "CommissionProjection",
+                    "type": null,
+                    "x": "50029",
+                    "y": "14270",
+                    "width": "49561",
+                    "height": "65929"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "410",
+                    "y": "80200",
+                    "width": "99180",
+                    "height": "4535"
+                },
+                {
+                    "name": "QuotaAttainment",
+                    "type": null,
+                    "x": "410",
+                    "y": "81305",
+                    "width": "49619",
+                    "height": "3208"
+                },
+                {
+                    "name": "CommissionProjection",
+                    "type": null,
+                    "x": "50029",
+                    "y": "81305",
+                    "width": "49561",
+                    "height": "3208"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "410",
+                    "y": "84735",
+                    "width": "99180",
+                    "height": "14491"
+                },
+                {
+                    "name": "Sales",
+                    "type": null,
+                    "x": "702",
+                    "y": "85288",
+                    "width": "49327",
+                    "height": "13385"
+                },
+                {
+                    "name": "OTE",
+                    "type": null,
+                    "x": "50029",
+                    "y": "85288",
+                    "width": "49269",
+                    "height": "13385"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "0",
+                    "y": "0",
+                    "width": "100000",
+                    "height": "100000"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "0",
+                    "y": "0",
+                    "width": "100000",
+                    "height": "100000"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "0",
+                    "y": "0",
+                    "width": "100000",
+                    "height": "3230"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "0",
+                    "y": "3230",
+                    "width": "100000",
+                    "height": "3846"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "0",
+                    "y": "7076",
+                    "width": "100000",
+                    "height": "4077"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "0",
+                    "y": "11153",
+                    "width": "100000",
+                    "height": "4077"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "0",
+                    "y": "15230",
+                    "width": "100000",
+                    "height": "4077"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "0",
+                    "y": "19307",
+                    "width": "100000",
+                    "height": "5846"
+                },
+                {
+                    "name": "QuotaAttainment",
+                    "type": null,
+                    "x": "0",
+                    "y": "25153",
+                    "width": "100000",
+                    "height": "22153"
+                },
+                {
+                    "name": "QuotaAttainment",
+                    "type": null,
+                    "x": "0",
+                    "y": "47306",
+                    "width": "100000",
+                    "height": "3692"
+                },
+                {
+                    "name": "CommissionProjection",
+                    "type": null,
+                    "x": "0",
+                    "y": "50998",
+                    "width": "100000",
+                    "height": "22153"
+                },
+                {
+                    "name": "CommissionProjection",
+                    "type": null,
+                    "x": "0",
+                    "y": "73151",
+                    "width": "100000",
+                    "height": "2538"
+                },
+                {
+                    "name": "Sales",
+                    "type": null,
+                    "x": "0",
+                    "y": "75689",
+                    "width": "100000",
+                    "height": "6461"
+                },
+                {
+                    "name": "OTE",
+                    "type": null,
+                    "x": "0",
+                    "y": "82150",
+                    "width": "100000",
+                    "height": "6461"
+                }
+            ]
+        },
+        {
+            "name": "Customers",
+            "zones": [
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "0",
+                    "y": "0",
+                    "width": "100000",
+                    "height": "100000"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "410",
+                    "y": "774",
+                    "width": "99180",
+                    "height": "98452"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "410",
+                    "y": "774",
+                    "width": "99180",
+                    "height": "98452"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "410",
+                    "y": "774",
+                    "width": "99180",
+                    "height": "6594"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "410",
+                    "y": "22280",
+                    "width": "88394",
+                    "height": "76946"
+                },
+                {
+                    "name": "CustomerScatter",
+                    "type": null,
+                    "x": "410",
+                    "y": "22235",
+                    "width": "44236",
+                    "height": "76991"
+                },
+                {
+                    "name": "CustomerRank",
+                    "type": null,
+                    "x": "44646",
+                    "y": "22235",
+                    "width": "44178",
+                    "height": "76991"
+                },
+                {
+                    "name": "CustomerOverview",
+                    "type": null,
+                    "x": "410",
+                    "y": "7368",
+                    "width": "99180",
+                    "height": "14912"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "88804",
+                    "y": "22280",
+                    "width": "10786",
+                    "height": "76946"
+                },
+                {
+                    "name": "CustomerScatter",
+                    "type": null,
+                    "x": "89272",
+                    "y": "23164",
+                    "width": "9850",
+                    "height": "5752"
+                },
+                {
+                    "name": "CustomerScatter",
+                    "type": null,
+                    "x": "89272",
+                    "y": "28916",
+                    "width": "9850",
+                    "height": "11947"
+                },
+                {
+                    "name": "CustomerScatter",
+                    "type": null,
+                    "x": "89272",
+                    "y": "40863",
+                    "width": "9850",
+                    "height": "11947"
+                },
+                {
+                    "name": "CustomerScatter",
+                    "type": null,
+                    "x": "89272",
+                    "y": "52810",
+                    "width": "9850",
+                    "height": "7190"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "0",
+                    "y": "0",
+                    "width": "100000",
+                    "height": "100000"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "684",
+                    "y": "1087",
+                    "width": "98632",
+                    "height": "97826"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "684",
+                    "y": "1087",
+                    "width": "98632",
+                    "height": "97826"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "684",
+                    "y": "1087",
+                    "width": "98632",
+                    "height": "6573"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "684",
+                    "y": "27174",
+                    "width": "84179",
+                    "height": "71739"
+                },
+                {
+                    "name": "CustomerScatter",
+                    "type": null,
+                    "x": "684",
+                    "y": "27174",
+                    "width": "42089",
+                    "height": "71739"
+                },
+                {
+                    "name": "CustomerRank",
+                    "type": null,
+                    "x": "42773",
+                    "y": "27174",
+                    "width": "42090",
+                    "height": "71739"
+                },
+                {
+                    "name": "CustomerOverview",
+                    "type": null,
+                    "x": "684",
+                    "y": "7660",
+                    "width": "98632",
+                    "height": "19514"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "84863",
+                    "y": "27174",
+                    "width": "14453",
+                    "height": "71739"
+                },
+                {
+                    "name": "CustomerScatter",
+                    "type": null,
+                    "x": "85253",
+                    "y": "27796",
+                    "width": "13673",
+                    "height": "8074"
+                },
+                {
+                    "name": "CustomerScatter",
+                    "type": null,
+                    "x": "85253",
+                    "y": "35870",
+                    "width": "13673",
+                    "height": "16770"
+                },
+                {
+                    "name": "CustomerScatter",
+                    "type": null,
+                    "x": "85253",
+                    "y": "52640",
+                    "width": "13673",
+                    "height": "16770"
+                },
+                {
+                    "name": "CustomerScatter",
+                    "type": null,
+                    "x": "85253",
+                    "y": "69410",
+                    "width": "13673",
+                    "height": "10093"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "0",
+                    "y": "0",
+                    "width": "100000",
+                    "height": "100000"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "1867",
+                    "y": "700",
+                    "width": "96266",
+                    "height": "98600"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "1867",
+                    "y": "700",
+                    "width": "96266",
+                    "height": "4200"
+                },
+                {
+                    "name": "CustomerScatter",
+                    "type": null,
+                    "x": "1867",
+                    "y": "4900",
+                    "width": "96266",
+                    "height": "5200"
+                },
+                {
+                    "name": "CustomerScatter",
+                    "type": null,
+                    "x": "1867",
+                    "y": "10100",
+                    "width": "96266",
+                    "height": "5200"
+                },
+                {
+                    "name": "CustomerScatter",
+                    "type": null,
+                    "x": "1867",
+                    "y": "15300",
+                    "width": "96266",
+                    "height": "5200"
+                },
+                {
+                    "name": "CustomerScatter",
+                    "type": null,
+                    "x": "1867",
+                    "y": "20500",
+                    "width": "96266",
+                    "height": "28800"
+                },
+                {
+                    "name": "CustomerScatter",
+                    "type": null,
+                    "x": "1867",
+                    "y": "49300",
+                    "width": "96266",
+                    "height": "6500"
+                },
+                {
+                    "name": "CustomerRank",
+                    "type": null,
+                    "x": "1867",
+                    "y": "55800",
+                    "width": "96266",
+                    "height": "28800"
+                }
+            ]
+        },
+        {
+            "name": "Order Details",
+            "zones": [
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "0",
+                    "y": "0",
+                    "width": "100000",
+                    "height": "100000"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "0",
+                    "y": "0",
+                    "width": "100000",
+                    "height": "100000"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "410",
+                    "y": "774",
+                    "width": "99180",
+                    "height": "3982"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "410",
+                    "y": "4756",
+                    "width": "99180",
+                    "height": "94470"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "410",
+                    "y": "4756",
+                    "width": "99180",
+                    "height": "94470"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "410",
+                    "y": "4756",
+                    "width": "99180",
+                    "height": "6858"
+                },
+                {
+                    "name": "Product Detail Sheet",
+                    "type": null,
+                    "x": "410",
+                    "y": "4756",
+                    "width": "52370",
+                    "height": "6858"
+                },
+                {
+                    "name": "Product Detail Sheet",
+                    "type": null,
+                    "x": "52780",
+                    "y": "4756",
+                    "width": "9362",
+                    "height": "6858"
+                },
+                {
+                    "name": "Product Detail Sheet",
+                    "type": null,
+                    "x": "62142",
+                    "y": "4756",
+                    "width": "9362",
+                    "height": "6858"
+                },
+                {
+                    "name": "Product Detail Sheet",
+                    "type": null,
+                    "x": "71504",
+                    "y": "4756",
+                    "width": "9362",
+                    "height": "6858"
+                },
+                {
+                    "name": "Product Detail Sheet",
+                    "type": null,
+                    "x": "80866",
+                    "y": "4756",
+                    "width": "9362",
+                    "height": "6858"
+                },
+                {
+                    "name": "Product Detail Sheet",
+                    "type": null,
+                    "x": "90228",
+                    "y": "4756",
+                    "width": "9362",
+                    "height": "6858"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "410",
+                    "y": "11614",
+                    "width": "99180",
+                    "height": "87612"
+                },
+                {
+                    "name": "Product Detail Sheet",
+                    "type": null,
+                    "x": "410",
+                    "y": "11614",
+                    "width": "99180",
+                    "height": "87612"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "0",
+                    "y": "0",
+                    "width": "100000",
+                    "height": "100000"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "8000",
+                    "y": "8000",
+                    "width": "84000",
+                    "height": "84000"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "410",
+                    "y": "774",
+                    "width": "99180",
+                    "height": "3982"
+                },
+                {
+                    "name": "Product Detail Sheet",
+                    "type": null,
+                    "x": "410",
+                    "y": "4756",
+                    "width": "52370",
+                    "height": "6858"
+                },
+                {
+                    "name": "Product Detail Sheet",
+                    "type": null,
+                    "x": "52780",
+                    "y": "4756",
+                    "width": "9362",
+                    "height": "6858"
+                },
+                {
+                    "name": "Product Detail Sheet",
+                    "type": null,
+                    "x": "62142",
+                    "y": "4756",
+                    "width": "9362",
+                    "height": "6858"
+                },
+                {
+                    "name": "Product Detail Sheet",
+                    "type": null,
+                    "x": "71504",
+                    "y": "4756",
+                    "width": "9362",
+                    "height": "6858"
+                },
+                {
+                    "name": "Product Detail Sheet",
+                    "type": null,
+                    "x": "80866",
+                    "y": "4756",
+                    "width": "9362",
+                    "height": "6858"
+                },
+                {
+                    "name": "Product Detail Sheet",
+                    "type": null,
+                    "x": "90228",
+                    "y": "4756",
+                    "width": "9362",
+                    "height": "6858"
+                },
+                {
+                    "name": "Product Detail Sheet",
+                    "type": null,
+                    "x": "410",
+                    "y": "11614",
+                    "width": "99180",
+                    "height": "87612"
+                }
+            ]
+        },
+        {
+            "name": "Overview",
+            "zones": [
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "0",
+                    "y": "0",
+                    "width": "100000",
+                    "height": "100000"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "0",
+                    "y": "0",
+                    "width": "100000",
+                    "height": "100000"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "0",
+                    "y": "0",
+                    "width": "100000",
+                    "height": "100000"
+                },
+                {
+                    "name": "Total Sales",
+                    "type": null,
+                    "x": "461",
+                    "y": "791",
+                    "width": "99078",
+                    "height": "13220"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "461",
+                    "y": "14011",
+                    "width": "99078",
+                    "height": "38079"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "461",
+                    "y": "14011",
+                    "width": "99078",
+                    "height": "38079"
+                },
+                {
+                    "name": "Sale Map",
+                    "type": null,
+                    "x": "461",
+                    "y": "14011",
+                    "width": "87411",
+                    "height": "38079"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "87872",
+                    "y": "14011",
+                    "width": "11667",
+                    "height": "38079"
+                },
+                {
+                    "name": "Sale Map",
+                    "type": null,
+                    "x": "88400",
+                    "y": "14915",
+                    "width": "10611",
+                    "height": "5876"
+                },
+                {
+                    "name": "Sale Map",
+                    "type": null,
+                    "x": "88400",
+                    "y": "20791",
+                    "width": "10611",
+                    "height": "7797"
+                },
+                {
+                    "name": "Sale Map",
+                    "type": null,
+                    "x": "88400",
+                    "y": "28588",
+                    "width": "10611",
+                    "height": "7797"
+                },
+                {
+                    "name": "Sale Map",
+                    "type": null,
+                    "x": "88400",
+                    "y": "36385",
+                    "width": "10611",
+                    "height": "7345"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "461",
+                    "y": "52090",
+                    "width": "99078",
+                    "height": "47119"
+                },
+                {
+                    "name": "Sales by Segment",
+                    "type": null,
+                    "x": "725",
+                    "y": "52542",
+                    "width": "49143",
+                    "height": "46215"
+                },
+                {
+                    "name": "Sales by Product",
+                    "type": null,
+                    "x": "49868",
+                    "y": "52542",
+                    "width": "49406",
+                    "height": "46215"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "0",
+                    "y": "0",
+                    "width": "100000",
+                    "height": "100000"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "0",
+                    "y": "0",
+                    "width": "100000",
+                    "height": "100000"
+                },
+                {
+                    "name": "Total Sales",
+                    "type": null,
+                    "x": "0",
+                    "y": "0",
+                    "width": "100000",
+                    "height": "7500"
+                },
+                {
+                    "name": "Sale Map",
+                    "type": null,
+                    "x": "0",
+                    "y": "7500",
+                    "width": "100000",
+                    "height": "4334"
+                },
+                {
+                    "name": "Sale Map",
+                    "type": null,
+                    "x": "0",
+                    "y": "11834",
+                    "width": "100000",
+                    "height": "4250"
+                },
+                {
+                    "name": "Sale Map",
+                    "type": null,
+                    "x": "0",
+                    "y": "16084",
+                    "width": "100000",
+                    "height": "4250"
+                },
+                {
+                    "name": "Sale Map",
+                    "type": null,
+                    "x": "0",
+                    "y": "20334",
+                    "width": "100000",
+                    "height": "20084"
+                },
+                {
+                    "name": "Sale Map",
+                    "type": null,
+                    "x": "0",
+                    "y": "40418",
+                    "width": "100000",
+                    "height": "5417"
+                },
+                {
+                    "name": "Sales by Segment",
+                    "type": null,
+                    "x": "0",
+                    "y": "45835",
+                    "width": "100000",
+                    "height": "23917"
+                },
+                {
+                    "name": "Sales by Product",
+                    "type": null,
+                    "x": "0",
+                    "y": "69752",
+                    "width": "100000",
+                    "height": "23917"
+                }
+            ]
+        },
+        {
+            "name": "Product",
+            "zones": [
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "0",
+                    "y": "0",
+                    "width": "100000",
+                    "height": "100000"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "410",
+                    "y": "774",
+                    "width": "99180",
+                    "height": "98452"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "410",
+                    "y": "774",
+                    "width": "99180",
+                    "height": "98452"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "410",
+                    "y": "774",
+                    "width": "99180",
+                    "height": "49204"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "410",
+                    "y": "774",
+                    "width": "99180",
+                    "height": "49204"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "410",
+                    "y": "774",
+                    "width": "99180",
+                    "height": "4203"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "410",
+                    "y": "4977",
+                    "width": "99180",
+                    "height": "45001"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "410",
+                    "y": "4977",
+                    "width": "99180",
+                    "height": "45001"
+                },
+                {
+                    "name": "ProductView",
+                    "type": null,
+                    "x": "410",
+                    "y": "4977",
+                    "width": "87987",
+                    "height": "45001"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "88397",
+                    "y": "4977",
+                    "width": "11193",
+                    "height": "45001"
+                },
+                {
+                    "name": "ProductView",
+                    "type": null,
+                    "x": "88865",
+                    "y": "5861",
+                    "width": "10257",
+                    "height": "14049"
+                },
+                {
+                    "name": "ProductView",
+                    "type": null,
+                    "x": "88865",
+                    "y": "19910",
+                    "width": "10257",
+                    "height": "7190"
+                },
+                {
+                    "name": "ProductDetails",
+                    "type": null,
+                    "x": "88865",
+                    "y": "27100",
+                    "width": "10257",
+                    "height": "7190"
+                },
+                {
+                    "name": "ProductDetails",
+                    "type": null,
+                    "x": "410",
+                    "y": "49978",
+                    "width": "99180",
+                    "height": "49248"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "0",
+                    "y": "0",
+                    "width": "100000",
+                    "height": "100000"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "300",
+                    "y": "385",
+                    "width": "99400",
+                    "height": "12288"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "300",
+                    "y": "385",
+                    "width": "99400",
+                    "height": "12288"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "300",
+                    "y": "385",
+                    "width": "99400",
+                    "height": "12288"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "300",
+                    "y": "385",
+                    "width": "99400",
+                    "height": "12288"
+                },
+                {
+                    "name": "ProductDetails",
+                    "type": null,
+                    "x": "300",
+                    "y": "22658",
+                    "width": "99400",
+                    "height": "70804"
+                },
+                {
+                    "name": "ProductDetails",
+                    "type": null,
+                    "x": "300",
+                    "y": "12673",
+                    "width": "99400",
+                    "height": "9985"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "300",
+                    "y": "93462",
+                    "width": "99400",
+                    "height": "6153"
+                },
+                {
+                    "name": "ProductDetails",
+                    "type": null,
+                    "x": "300",
+                    "y": "93462",
+                    "width": "99400",
+                    "height": "6153"
+                }
+            ]
+        },
+        {
+            "name": "Shipping",
+            "zones": [
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "0",
+                    "y": "0",
+                    "width": "100000",
+                    "height": "100000"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "410",
+                    "y": "774",
+                    "width": "99180",
+                    "height": "98452"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "410",
+                    "y": "774",
+                    "width": "99180",
+                    "height": "98452"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "410",
+                    "y": "8167",
+                    "width": "86935",
+                    "height": "91059"
+                },
+                {
+                    "name": "ShipSummary",
+                    "type": null,
+                    "x": "410",
+                    "y": "8167",
+                    "width": "86935",
+                    "height": "6748"
+                },
+                {
+                    "name": "ShippingTrend",
+                    "type": null,
+                    "x": "410",
+                    "y": "14915",
+                    "width": "86935",
+                    "height": "32743"
+                },
+                {
+                    "name": "DaystoShip",
+                    "type": null,
+                    "x": "410",
+                    "y": "47658",
+                    "width": "86935",
+                    "height": "51568"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "410",
+                    "y": "774",
+                    "width": "99180",
+                    "height": "7393"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "87345",
+                    "y": "8183",
+                    "width": "12245",
+                    "height": "91043"
+                },
+                {
+                    "name": "ShippingTrend",
+                    "type": null,
+                    "x": "87813",
+                    "y": "9067",
+                    "width": "11309",
+                    "height": "11947"
+                },
+                {
+                    "name": "ShippingTrend",
+                    "type": null,
+                    "x": "87813",
+                    "y": "21014",
+                    "width": "11309",
+                    "height": "11947"
+                },
+                {
+                    "name": "ShippingTrend",
+                    "type": null,
+                    "x": "87813",
+                    "y": "32961",
+                    "width": "11309",
+                    "height": "5752"
+                },
+                {
+                    "name": "ShippingTrend",
+                    "type": null,
+                    "x": "87813",
+                    "y": "38713",
+                    "width": "11309",
+                    "height": "5752"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "0",
+                    "y": "0",
+                    "width": "100000",
+                    "height": "100000"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "300",
+                    "y": "11731",
+                    "width": "99400",
+                    "height": "25384"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "300",
+                    "y": "11731",
+                    "width": "99400",
+                    "height": "25384"
+                },
+                {
+                    "name": null,
+                    "type": null,
+                    "x": "300",
+                    "y": "11731",
+                    "width": "99400",
+                    "height": "25384"
+                },
+                {
+                    "name": "ShippingTrend",
+                    "type": null,
+                    "x": "900",
+                    "y": "12501",
+                    "width": "98200",
+                    "height": "5961"
+                },
+                {
+                    "name": "ShippingTrend",
+                    "type": null,
+                    "x": "900",
+                    "y": "18462",
+                    "width": "98200",
+                    "height": "5961"
+                },
+                {
+                    "name": "ShippingTrend",
+                    "type": null,
+                    "x": "900",
+                    "y": "24423",
+                    "width": "98200",
+                    "height": "5961"
+                },
+                {
+                    "name": "ShippingTrend",
+                    "type": null,
+                    "x": "900",
+                    "y": "30384",
+                    "width": "98200",
+                    "height": "5961"
+                },
+                {
+                    "name": "ShipSummary",
+                    "type": null,
+                    "x": "300",
+                    "y": "385",
+                    "width": "99400",
+                    "height": "11346"
+                },
+                {
+                    "name": "ShippingTrend",
+                    "type": null,
+                    "x": "300",
+                    "y": "37115",
+                    "width": "99400",
+                    "height": "62500"
+                }
+            ]
+        }
+    ]
+}

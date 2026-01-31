@@ -1,0 +1,107 @@
+{
+    "name": "MigratedModel",
+    "compatibilityLevel": 1567,
+    "model": {
+        "culture": "en-US",
+        "dataAccessOptions": {
+            "legacyRedirects": true,
+            "returnErrorValuesAsNull": true
+        },
+        "defaultPowerBIDataSourceVersion": "powerBI_V3",
+        "sourceQueryCulture": "en-US",
+        "tables": [
+            {
+                "name": "Sales",
+                "columns": [
+                    {
+                        "name": "OrderID",
+                        "dataType": "string",
+                        "sourceColumn": "OrderID"
+                    },
+                    {
+                        "name": "OrderDate",
+                        "dataType": "dateTime",
+                        "sourceColumn": "OrderDate"
+                    },
+                    {
+                        "name": "CustomerName",
+                        "dataType": "string",
+                        "sourceColumn": "CustomerName"
+                    },
+                    {
+                        "name": "Category",
+                        "dataType": "string",
+                        "sourceColumn": "Category"
+                    },
+                    {
+                        "name": "SubCategory",
+                        "dataType": "string",
+                        "sourceColumn": "SubCategory"
+                    },
+                    {
+                        "name": "ProductName",
+                        "dataType": "string",
+                        "sourceColumn": "ProductName"
+                    },
+                    {
+                        "name": "Sales",
+                        "dataType": "double",
+                        "sourceColumn": "Sales"
+                    },
+                    {
+                        "name": "Quantity",
+                        "dataType": "int64",
+                        "sourceColumn": "Quantity"
+                    },
+                    {
+                        "name": "Discount",
+                        "dataType": "double",
+                        "sourceColumn": "Discount"
+                    },
+                    {
+                        "name": "Profit",
+                        "dataType": "double",
+                        "sourceColumn": "Profit"
+                    },
+                    {
+                        "name": "Region",
+                        "dataType": "string",
+                        "sourceColumn": "Region"
+                    },
+                    {
+                        "name": "State",
+                        "dataType": "string",
+                        "sourceColumn": "State"
+                    },
+                    {
+                        "name": "City",
+                        "dataType": "string",
+                        "sourceColumn": "City"
+                    }
+                ],
+                "measures": [],
+                "partitions": [
+                    {
+                        "name": "Sales-Partition",
+                        "mode": "import",
+                        "source": {
+                            "type": "m",
+                            "expression": [
+                                "let",
+                                "    Source = #\"Sales Data\"",
+                                "in",
+                                "    Source"
+                            ]
+                        }
+                    }
+                ]
+            }
+        ],
+        "annotations": [
+            {
+                "name": "PBI_QueryOrder",
+                "value": "[\"Sales\"]"
+            }
+        ]
+    }
+}

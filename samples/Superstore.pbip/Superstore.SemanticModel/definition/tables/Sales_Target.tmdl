@@ -1,0 +1,45 @@
+table 'Sales Target'
+	lineageTag: 767f4f48-6eca-41ee-9451-7b5fccb71227
+
+	column 'Category'
+		dataType: string
+		lineageTag: 0bbfaa45-9b0f-43d3-9138-aa93a497c899
+		summarizeBy: none
+		sourceColumn: Category
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Order Date'
+		dataType: dateTime
+		lineageTag: d4fa6215-d9d3-4a8a-92d0-5cda6ae9985a
+		summarizeBy: none
+		sourceColumn: Order Date
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Segment'
+		dataType: string
+		lineageTag: d9a20dea-10b9-4f29-b10e-d9bf9976038a
+		summarizeBy: none
+		sourceColumn: Segment
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Sales Target'
+		dataType: int64
+		lineageTag: f5fce654-23e2-4768-b425-075a63dfc824
+		summarizeBy: sum
+		sourceColumn: Sales Target
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Sales Target' = m
+		mode: import
+		source =
+			let
+				Source = Excel.Workbook(File.Contents("Data/Superstore/Sales Target.xlsx"), null, true),
+				Sheet1_Sheet = Source{[Item="Sheet1",Kind="Sheet"]}[Data],
+				PromotedHeaders = Table.PromoteHeaders(Sheet1_Sheet, [PromoteAllScalars=true])
+				, ChangedTypes = Table.TransformColumnTypes(PromotedHeaders, {{"Category", type text}, {"Order Date", type date}, {"Segment", type text}, {"Sales Target", Int64.Type}})
+			in
+				ChangedTypes

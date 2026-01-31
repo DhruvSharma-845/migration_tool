@@ -1,0 +1,257 @@
+table 'Sample - Superstore'
+	lineageTag: 6e26e207-6d82-499d-84e5-a065c168633b
+
+	column 'Row ID'
+		dataType: int64
+		lineageTag: a90850f8-62ab-47e2-a770-e46006ed1b34
+		summarizeBy: sum
+		sourceColumn: Row ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Order ID'
+		dataType: string
+		lineageTag: d644dd3b-74aa-4009-9b39-a81464f33346
+		summarizeBy: none
+		sourceColumn: Order ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Order Date'
+		dataType: dateTime
+		lineageTag: d2bbb580-c882-464d-bcec-8cee6f5b4ddc
+		summarizeBy: none
+		sourceColumn: Order Date
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Ship Date'
+		dataType: dateTime
+		lineageTag: f6d17d8c-7c33-4d30-b6df-cb9bbdfd6784
+		summarizeBy: none
+		sourceColumn: Ship Date
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Ship Mode'
+		dataType: string
+		lineageTag: f8f25fb2-0738-4a51-b002-d79f59c9f298
+		summarizeBy: none
+		sourceColumn: Ship Mode
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Customer ID'
+		dataType: string
+		lineageTag: e1fd4589-3e62-4ff8-a6fa-9d93f38f5d4a
+		summarizeBy: none
+		sourceColumn: Customer ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Customer Name'
+		dataType: string
+		lineageTag: 205c86a7-4475-4139-af04-c1b7e942821f
+		summarizeBy: none
+		sourceColumn: Customer Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Segment'
+		dataType: string
+		lineageTag: 32ad6627-bfe2-4125-aba8-e72cd97dc3f5
+		summarizeBy: none
+		sourceColumn: Segment
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Country/Region'
+		dataType: string
+		lineageTag: 5378f135-078a-40b8-b545-844c4ae42eb0
+		summarizeBy: none
+		sourceColumn: Country/Region
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'City'
+		dataType: string
+		lineageTag: 066c4880-e788-4e40-ae4b-e4b1565a32ba
+		summarizeBy: none
+		sourceColumn: City
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'State/Province'
+		dataType: string
+		lineageTag: a869ef3b-b1a4-4cf6-b421-45f2b51eabe4
+		summarizeBy: none
+		sourceColumn: State/Province
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Postal Code'
+		dataType: string
+		lineageTag: fbf22b7e-0685-4e3e-8142-9b29ba378375
+		summarizeBy: none
+		sourceColumn: Postal Code
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Region'
+		dataType: string
+		lineageTag: 83982a99-d356-4b05-962d-05a8c1aad712
+		summarizeBy: none
+		sourceColumn: Region
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Product ID'
+		dataType: string
+		lineageTag: b1e2d226-2e9d-4ca4-bca6-d763d7aefa7a
+		summarizeBy: none
+		sourceColumn: Product ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Category'
+		dataType: string
+		lineageTag: 14f56c05-33d7-4b74-bb69-6c1f00996da3
+		summarizeBy: none
+		sourceColumn: Category
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Sub-Category'
+		dataType: string
+		lineageTag: 79960b3a-4afd-43d5-8ad7-aaea53f658fd
+		summarizeBy: none
+		sourceColumn: Sub-Category
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Product Name'
+		dataType: string
+		lineageTag: 89a18645-85ab-4ba8-9c59-0da74aa4e309
+		summarizeBy: none
+		sourceColumn: Product Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Sales'
+		dataType: double
+		lineageTag: 2247c679-e35f-4de3-8634-ff27a1a0172d
+		summarizeBy: sum
+		sourceColumn: Sales
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Quantity'
+		dataType: int64
+		lineageTag: 6c5b2057-f165-4426-9236-9ac63a3d9b42
+		summarizeBy: sum
+		sourceColumn: Quantity
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Discount'
+		dataType: double
+		lineageTag: e61a4ea9-81d0-42ed-935f-350ec6eb9b48
+		summarizeBy: sum
+		sourceColumn: Discount
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Profit'
+		dataType: double
+		lineageTag: 505df881-629c-44c1-83d9-aa587c84d417
+		summarizeBy: sum
+		sourceColumn: Profit
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Regional Manager'
+		dataType: string
+		lineageTag: 5aaee02b-8a98-4274-b13b-6da4073164a9
+		summarizeBy: none
+		sourceColumn: Regional Manager
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Returned'
+		dataType: string
+		lineageTag: 2f7c181f-006e-45e5-b658-8d009b907360
+		summarizeBy: none
+		sourceColumn: Returned
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Order ID (Returns)'
+		dataType: string
+		lineageTag: 0d3311f6-0ee5-4df0-b584-6f52cc287228
+		summarizeBy: none
+		sourceColumn: Order ID (Returns)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Region (People)'
+		dataType: string
+		lineageTag: 66d1d5dc-ec29-4ce4-8600-eafb875de2e6
+		summarizeBy: none
+		sourceColumn: Region (People)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Sales Target'
+		dataType: int64
+		lineageTag: c123e892-3617-4e8e-abb9-580ebd93cc54
+		summarizeBy: sum
+		sourceColumn: Sales Target
+
+		annotation SummarizationSetBy = Automatic
+
+	measure 'Days to Ship Actual' = DATEDIFF('Sample - Superstore'[Order Date], 'Sample - Superstore'[Ship Date], DAY)
+		lineageTag: 9be8b271-b3e5-44c7-9141-743ee7c26c3a
+
+	measure 'Sales Forecast' = 'Sample - Superstore'[Sales]*(1-'Parameters'[Parameter 2])*(1+'Parameters'[Parameter 1])
+		lineageTag: 8da9bd49-33a6-48f8-805c-21b04faa4247
+
+	measure 'Ship Status' = IF('Sample - Superstore'[Calculation_0831103151444568]> 'Sample - Superstore'[Calculation_6861103170623145] , "Shipped Late" , IF( 'Sample - Superstore'[Calculation_0831103151444568]= 'Sample - Superstore'[Calculation_6861103170623145] , "Shipped On Time" , "Shipped Early" )
+		lineageTag: 202a0632-922d-404b-bc86-c0e7e281103b
+
+	measure 'Days to Ship Scheduled' = CASE 'Sample - Superstore'[Ship Mode] WHEN "Same Day" , 0 WHEN "First Class" , 1 WHEN "Second Class" , 3 WHEN "Standard Class" , 6
+		lineageTag: 0869f9a7-49f4-43d8-a606-2db33da26f28
+
+	measure 'Order Profitable?' = CALCULATE(SUM('Sample - Superstore'[Profit]), ALLEXCEPT(Sample - Superstore, 'Sample - Superstore'[Order ID])>0 // calculates the profit at the order level
+		lineageTag: a5fa3952-381b-4483-b159-e211ce0f73b0
+
+	measure 'Sales per Customer' = SUM('Sample - Superstore'[Sales])/DISTINCTCOUNT('Sample - Superstore'[Customer Name])
+		lineageTag: e03ab163-4a38-4be6-b1d1-6d97cf71b781
+
+	measure 'Profit Ratio' = SUM('Sample - Superstore'[Profit])/SUM('Sample - Superstore'[Sales])
+		lineageTag: 3e0238e6-8371-4768-a1e9-a13fb45b2914
+
+	measure 'Sales above Target?' = IF(SUM('Sample - Superstore'[Sales])>SUM('Sample - Superstore'[Sales Target]) , "Above Target" , "Below Target" )
+		lineageTag: 662ddaeb-0023-4d01-b08f-adf9d71ce80e
+
+	measure 'Units estimate' = ROUND('Sample - Superstore'[Quantity]*(1-'Parameters'[Parameter 2])*(1+'Parameters'[Parameter 1]),0)
+		lineageTag: 79b43cc3-ca53-4d10-bba4-e5160059ade6
+
+	measure 'Profit per Order' = SUM('Sample - Superstore'[Profit])/DISTINCTCOUNT('Sample - Superstore'[Order ID])
+		lineageTag: e22165c1-a3fd-4c55-bbdf-037a7cddfeec
+
+	measure 'New Business Growth' = 0.59999999999999998
+		lineageTag: bcf8286e-ba28-4d35-a662-71dd7b1b6f0b
+
+	measure 'Churn Rate' = 0.064000000000000001
+		lineageTag: ae6de44f-cc8e-46d5-a426-4195f2d219d1
+
+	partition 'Sample - Superstore' = m
+		mode: import
+		source =
+			let
+				Source = Excel.Workbook(File.Contents("Data/Superstore/Sample - Superstore.xls"), null, true),
+				Orders_Sheet = Source{[Item="Orders",Kind="Sheet"]}[Data],
+				PromotedHeaders = Table.PromoteHeaders(Orders_Sheet, [PromoteAllScalars=true])
+				, ChangedTypes = Table.TransformColumnTypes(PromotedHeaders, {{"Row ID", Int64.Type}, {"Order ID", type text}, {"Order Date", type date}, {"Ship Date", type date}, {"Ship Mode", type text}, {"Customer ID", type text}, {"Customer Name", type text}, {"Segment", type text}, {"Country/Region", type text}, {"City", type text}, {"State/Province", type text}, {"Postal Code", type text}, {"Region", type text}, {"Product ID", type text}, {"Category", type text}, {"Sub-Category", type text}, {"Product Name", type text}, {"Sales", type number}, {"Quantity", Int64.Type}, {"Discount", type number}, {"Profit", type number}, {"Regional Manager", type text}, {"Returned", type text}, {"Order ID (Returns)", type text}, {"Region (People)", type text}, {"Sales Target", Int64.Type}})
+			in
+				ChangedTypes

@@ -1,0 +1,89 @@
+table 'Sales Commission'
+	lineageTag: 49dad710-d04d-47af-82c4-5ec573e4c0fc
+
+	column 'Order Date'
+		dataType: dateTime
+		lineageTag: 6c783a64-4c82-4742-96a0-4c4478991a41
+		summarizeBy: none
+		sourceColumn: Order Date
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Region'
+		dataType: string
+		lineageTag: 3a7728ed-33e3-4525-b41c-c9d547aa19d1
+		summarizeBy: none
+		sourceColumn: Region
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Sales Person'
+		dataType: string
+		lineageTag: 52acac05-cff9-4c67-9d5d-b8b149ec2f73
+		summarizeBy: none
+		sourceColumn: Sales Person
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Sales'
+		dataType: int64
+		lineageTag: 9e5a8fa1-11c7-42b7-8a36-3c95c5c2f616
+		summarizeBy: sum
+		sourceColumn: Sales
+
+		annotation SummarizationSetBy = Automatic
+
+	measure 'Achievement (estimated)' = 'Sales Commission'[Sales]
+		lineageTag: da3775f9-d9d3-47f7-b3ee-87418d9359c8
+
+	measure 'Achieved Quota' = IF(SUM('Sales Commission'[Achievement (copy)]) >= 'Parameters'[New Quota] , "100% +" , IF( SUM('Sales Commission'[Achievement (copy)]) >= 0.75 * 'Parameters'[New Quota] , "75-100%" , IF( SUM('Sales Commission'[Achievement (copy)]) >= 0.5 * 'Parameters'[New Quota] , "50-75%" , "Below 50%" ))
+		lineageTag: 57963a02-a972-416b-9902-77ac14bf23e8
+
+	measure 'Base (Variable)' = 'Parameters'[Base Salary]
+		lineageTag: 46ed4380-9e0b-490b-8c5a-81f73752686d
+
+	measure '% of quota achieved' = AVERAGE('Sales Commission'[Achievement (copy)])/'Parameters'[New Quota]
+		lineageTag: 4a90df5f-d57c-4b05-b364-014e95e6e872
+
+	measure 'Rank over 3' = ROUND(RANKX() / 3 - 0.6,0) + 1
+		lineageTag: 1074c68f-ae6e-4553-ad24-84b5ea5b4818
+
+	measure 'Sort by field' = IF('Parameters'[Parameter 1 1]="Names" , 0 , IF( 'Parameters'[Parameter 1 1]="% quota descending" , -'Sales Commission'[Calculation_0440925131659539] , 'Sales Commission'[Calculation_0440925131659539] )
+		lineageTag: 9b31f5c0-9429-46b5-82bb-1f75f63964a5
+
+	measure 'Commission (Variable)' = ('Parameters'[Commission Rate]*'Sales Commission'[Sales])/100
+		lineageTag: 3223c027-2fb9-48f6-8a71-8b49ea6b4d78
+
+	measure 'Estimate Compensation label' = "Estimated Compensation:"
+		lineageTag: 3849eb80-3432-4612-af3e-6053f0e31ab0
+
+	measure 'OTE (Variable)' = 'Parameters'[Base Salary] + ('Parameters'[Commission Rate]*'Parameters'[New Quota])/100
+		lineageTag: 74ba1b7a-6e29-480c-aed3-450c68880499
+
+	measure 'Total Compensation' = MIN('Sales Commission'[Base (Variable)]) + SUM('Sales Commission'[Commission (Variable)])
+		lineageTag: 647b8e59-c0d0-405a-a5d6-27aed5709c78
+
+	measure 'Total Sales label' = "Total Sales:"
+		lineageTag: 79e932d6-e92c-44ee-af3b-cab78124eb34
+
+	measure 'Base Salary' = 50000
+		lineageTag: 432f8617-0a56-4c28-b6ad-b7238e185aea
+
+	measure 'Commission Rate' = 18.399999999999999
+		lineageTag: 91927867-3ddf-4906-921a-42b914227093
+
+	measure 'New Quota' = 500000
+		lineageTag: 62c6399f-1c03-4056-828c-864ac2e83456
+
+	measure 'Sort by' = "Names"
+		lineageTag: bd8c309d-809c-48f8-b0e5-973f90110901
+
+	partition 'Sales Commission' = m
+		mode: import
+		source =
+			let
+				Source = Csv.Document(File.Contents("Data/Superstore/Sales Commission.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true])
+				, ChangedTypes = Table.TransformColumnTypes(PromotedHeaders, {{"Order Date", type datetime}, {"Region", type text}, {"Sales Person", type text}, {"Sales", Int64.Type}})
+			in
+				ChangedTypes

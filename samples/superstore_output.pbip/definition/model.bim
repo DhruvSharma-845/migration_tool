@@ -1,0 +1,273 @@
+{
+    "name": "MigratedModel",
+    "compatibilityLevel": 1567,
+    "model": {
+        "culture": "en-US",
+        "dataAccessOptions": {
+            "legacyRedirects": true,
+            "returnErrorValuesAsNull": true
+        },
+        "defaultPowerBIDataSourceVersion": "powerBI_V3",
+        "sourceQueryCulture": "en-US",
+        "tables": [
+            {
+                "name": "Sales",
+                "columns": [
+                    {
+                        "name": "OrderID",
+                        "dataType": "string",
+                        "sourceColumn": "OrderID"
+                    },
+                    {
+                        "name": "OrderDate",
+                        "dataType": "dateTime",
+                        "sourceColumn": "OrderDate"
+                    },
+                    {
+                        "name": "CustomerName",
+                        "dataType": "string",
+                        "sourceColumn": "CustomerName"
+                    },
+                    {
+                        "name": "Category",
+                        "dataType": "string",
+                        "sourceColumn": "Category"
+                    },
+                    {
+                        "name": "SubCategory",
+                        "dataType": "string",
+                        "sourceColumn": "SubCategory"
+                    },
+                    {
+                        "name": "ProductName",
+                        "dataType": "string",
+                        "sourceColumn": "ProductName"
+                    },
+                    {
+                        "name": "Sales",
+                        "dataType": "double",
+                        "sourceColumn": "Sales"
+                    },
+                    {
+                        "name": "Quantity",
+                        "dataType": "int64",
+                        "sourceColumn": "Quantity"
+                    },
+                    {
+                        "name": "Discount",
+                        "dataType": "double",
+                        "sourceColumn": "Discount"
+                    },
+                    {
+                        "name": "Profit",
+                        "dataType": "double",
+                        "sourceColumn": "Profit"
+                    },
+                    {
+                        "name": "Region",
+                        "dataType": "string",
+                        "sourceColumn": "Region"
+                    },
+                    {
+                        "name": "State",
+                        "dataType": "string",
+                        "sourceColumn": "State"
+                    },
+                    {
+                        "name": "City",
+                        "dataType": "string",
+                        "sourceColumn": "City"
+                    }
+                ],
+                "measures": [
+                    {
+                        "name": "Base Salary",
+                        "expression": "50000",
+                        "formatString": "General"
+                    },
+                    {
+                        "name": "Commission Rate",
+                        "expression": "18.399999999999999",
+                        "formatString": "General"
+                    },
+                    {
+                        "name": "New Quota",
+                        "expression": "500000",
+                        "formatString": "General"
+                    },
+                    {
+                        "name": "Sort by",
+                        "expression": "\"Names\"",
+                        "formatString": "General"
+                    },
+                    {
+                        "name": "New Business Growth",
+                        "expression": "0.59999999999999998",
+                        "formatString": "General"
+                    },
+                    {
+                        "name": "Churn Rate",
+                        "expression": "0.064000000000000001",
+                        "formatString": "General"
+                    },
+                    {
+                        "name": "Achievement (estimated)",
+                        "expression": "'Table'[Sales]",
+                        "formatString": "General"
+                    },
+                    {
+                        "name": "Achieved Quota",
+                        "expression": "if SUM('Table'[Achievement (copy)]) >= 'Table'[Parameters].'Table'[New Quota] then \"100% +\"\r\nelseif SUM('Table'[Achievement (copy)]) >= 0.75 * 'Table'[Parameters].'Table'[New Quota] then \"75-100%\"\r\nelseif SUM('Table'[Achievement (copy)]) >= 0.5 * 'Table'[Parameters].'Table'[New Quota] then \"50-75%\"\r\nelse \"Below 50%\" end",
+                        "formatString": "General"
+                    },
+                    {
+                        "name": "[Base (Variable)]",
+                        "expression": "'Table'[Parameters].'Table'[Base Salary]",
+                        "formatString": "General"
+                    },
+                    {
+                        "name": "% of quota achieved",
+                        "expression": "AVG('Table'[Achievement (copy)])/'Table'[Parameters].'Table'[New Quota]",
+                        "formatString": "General"
+                    },
+                    {
+                        "name": "Rank over 3",
+                        "expression": "ROUND(INDEX() / 3 - 0.6,0) + 1",
+                        "formatString": "General"
+                    },
+                    {
+                        "name": "Sort by field",
+                        "expression": "if 'Table'[Parameters].'Table'[Parameter 1 1]=\"Names\" then 0\r\nelseif 'Table'[Parameters].'Table'[Parameter 1 1]=\"% quota descending\" then -'Table'[Calculation_0440925131659539]\r\nelse 'Table'[Calculation_0440925131659539] end",
+                        "formatString": "General"
+                    },
+                    {
+                        "name": "[Commission (Variable)]",
+                        "expression": "('Table'[Parameters].'Table'[Commission Rate]*'Table'[Sales])/100",
+                        "formatString": "General"
+                    },
+                    {
+                        "name": "[Estimate Compensation label]",
+                        "expression": "\"Estimated Compensation:\"",
+                        "formatString": "General"
+                    },
+                    {
+                        "name": "[OTE (Variable)]",
+                        "expression": "'Table'[Parameters].'Table'[Base Salary] + ('Table'[Parameters].'Table'[Commission Rate]*'Table'[Parameters].'Table'[New Quota])/100",
+                        "formatString": "General"
+                    },
+                    {
+                        "name": "[Total Compensation]",
+                        "expression": "MIN('Table'[Base (Variable)]) + SUM('Table'[Commission (Variable)])",
+                        "formatString": "General"
+                    },
+                    {
+                        "name": "[Total Sales label]",
+                        "expression": "\"Total Sales:\"",
+                        "formatString": "General"
+                    },
+                    {
+                        "name": "Base Salary",
+                        "expression": "50000",
+                        "formatString": "General"
+                    },
+                    {
+                        "name": "Commission Rate",
+                        "expression": "18.399999999999999",
+                        "formatString": "General"
+                    },
+                    {
+                        "name": "New Quota",
+                        "expression": "500000",
+                        "formatString": "General"
+                    },
+                    {
+                        "name": "Sort by",
+                        "expression": "\"Names\"",
+                        "formatString": "General"
+                    },
+                    {
+                        "name": "Days to Ship Actual",
+                        "expression": "DATEDIFF('day','Table'[Order Date],'Table'[Ship Date])",
+                        "formatString": "General"
+                    },
+                    {
+                        "name": "Sales Forecast",
+                        "expression": "'Table'[Sales]*(1-'Table'[Parameters].'Table'[Parameter 2])*(1+'Table'[Parameters].'Table'[Parameter 1])",
+                        "formatString": "General"
+                    },
+                    {
+                        "name": "Ship Status",
+                        "expression": "if 'Table'[Calculation_0831103151444568]> 'Table'[Calculation_6861103170623145] then \"Shipped Late\" \r\nelseIF 'Table'[Calculation_0831103151444568]= 'Table'[Calculation_6861103170623145] then \"Shipped On Time\"\r\nElse \"Shipped Early\" end",
+                        "formatString": "General"
+                    },
+                    {
+                        "name": "Days to Ship Scheduled",
+                        "expression": "CASE  'Table'[Ship Mode]\r\nWHEN \"Same Day\" THEN 0\r\nWHEN \"First Class\" THEN 1\r\nWHEN \"Second Class\" THEN 3\r\nWHEN \"Standard Class\" THEN 6\r\nEND",
+                        "formatString": "General"
+                    },
+                    {
+                        "name": "Order Profitable?",
+                        "expression": "{fixed 'Table'[Order ID]:sum('Table'[Profit])}>0\r\n// calculates the profit at the order level",
+                        "formatString": "General"
+                    },
+                    {
+                        "name": "Sales per Customer",
+                        "expression": "Sum('Table'[Sales])/countD('Table'[Customer Name])",
+                        "formatString": "General"
+                    },
+                    {
+                        "name": "Profit Ratio",
+                        "expression": "sum('Table'[Profit])/sum('Table'[Sales])",
+                        "formatString": "General"
+                    },
+                    {
+                        "name": "Sales above Target?",
+                        "expression": "If Sum('Table'[Sales])>SUM('Table'[federated.0hgpf0j1fdpvv316shikk0mmdlec].'Table'[Sales Target]) then \"Above Target\" else \"Below Target\" end",
+                        "formatString": "General"
+                    },
+                    {
+                        "name": "Units estimate",
+                        "expression": "ROUND('Table'[Quantity]*(1-'Table'[Parameters].'Table'[Parameter 2])*(1+'Table'[Parameters].'Table'[Parameter 1]),0)",
+                        "formatString": "General"
+                    },
+                    {
+                        "name": "Profit per Order",
+                        "expression": "Sum('Table'[Profit])/countD('Table'[Order ID])",
+                        "formatString": "General"
+                    },
+                    {
+                        "name": "New Business Growth",
+                        "expression": "0.59999999999999998",
+                        "formatString": "General"
+                    },
+                    {
+                        "name": "Churn Rate",
+                        "expression": "0.064000000000000001",
+                        "formatString": "General"
+                    }
+                ],
+                "partitions": [
+                    {
+                        "name": "Sales-Partition",
+                        "mode": "import",
+                        "source": {
+                            "type": "m",
+                            "expression": [
+                                "let",
+                                "    Source = #\"Sales Data\"",
+                                "in",
+                                "    Source"
+                            ]
+                        }
+                    }
+                ]
+            }
+        ],
+        "annotations": [
+            {
+                "name": "PBI_QueryOrder",
+                "value": "[\"Sales\"]"
+            }
+        ]
+    }
+}

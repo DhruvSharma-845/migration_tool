@@ -1,0 +1,28 @@
+table 'Parameters'
+	lineageTag: ab5f6266-2880-4a63-998d-29f5647745d1
+
+	measure 'Base Salary' = 50000
+		lineageTag: 8d1f1218-7d71-42dc-9aae-3a79e87d3d0e
+
+	measure 'Commission Rate' = 18.399999999999999
+		lineageTag: 2edf89c1-b2ec-411c-8209-2e9a858b5efd
+
+	measure 'New Quota' = 500000
+		lineageTag: 22d4b7bd-8e3d-49fb-8d93-409f0a9b96da
+
+	measure 'Sort by' = "Names"
+		lineageTag: 708757b5-520b-4191-97dc-2bbab1a7ea2e
+
+	measure 'New Business Growth' = 0.59999999999999998
+		lineageTag: b13201e2-49fd-4d4f-8619-146b0bb399e4
+
+	measure 'Churn Rate' = 0.064000000000000001
+		lineageTag: 049f7e67-d733-4704-8edd-8466c3a9d67b
+
+	partition 'Parameters' = m
+		mode: import
+		source =
+			let
+				Source = #table(type table [], {})
+			in
+				Source
